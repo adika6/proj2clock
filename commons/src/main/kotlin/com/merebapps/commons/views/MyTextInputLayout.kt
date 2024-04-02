@@ -1,13 +1,13 @@
-package com.simplemobiletools.commons.views
+package com.merebapps.commons.views
 
 import android.content.Context
 import android.content.res.ColorStateList
 import android.util.AttributeSet
 import com.google.android.material.textfield.TextInputLayout
-import com.simplemobiletools.commons.extensions.adjustAlpha
-import com.simplemobiletools.commons.extensions.value
-import com.simplemobiletools.commons.helpers.HIGHER_ALPHA
-import com.simplemobiletools.commons.helpers.MEDIUM_ALPHA
+import com.merebapps.commons.extensions.adjustAlpha
+import com.merebapps.commons.extensions.value
+import com.merebapps.commons.helpers.HIGHER_ALPHA
+import com.merebapps.commons.helpers.MEDIUM_ALPHA
 
 class MyTextInputLayout : TextInputLayout {
     constructor(context: Context) : super(context)

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import android.app.Activity
 import android.content.Context
@@ -26,20 +26,20 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.alert_dialog.AlertDialogState
-import com.simplemobiletools.commons.compose.alert_dialog.DialogSurface
-import com.simplemobiletools.commons.compose.alert_dialog.ShowKeyboardWhenDialogIsOpenedAndRequestFocus
-import com.simplemobiletools.commons.compose.alert_dialog.rememberAlertDialogState
-import com.simplemobiletools.commons.compose.components.RadioGroupDialogComponent
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
-import com.simplemobiletools.commons.databinding.DialogCustomIntervalPickerBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.DAY_SECONDS
-import com.simplemobiletools.commons.helpers.HOUR_SECONDS
-import com.simplemobiletools.commons.helpers.MINUTE_SECONDS
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.alert_dialog.AlertDialogState
+import com.merebapps.commons.compose.alert_dialog.DialogSurface
+import com.merebapps.commons.compose.alert_dialog.ShowKeyboardWhenDialogIsOpenedAndRequestFocus
+import com.merebapps.commons.compose.alert_dialog.rememberAlertDialogState
+import com.merebapps.commons.compose.components.RadioGroupDialogComponent
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.databinding.DialogCustomIntervalPickerBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.DAY_SECONDS
+import com.merebapps.commons.helpers.HOUR_SECONDS
+import com.merebapps.commons.helpers.MINUTE_SECONDS
 import kotlinx.collections.immutable.toImmutableList
 
 class CustomIntervalPickerDialog(val activity: Activity, val selectedSeconds: Int = 0, val showSeconds: Boolean = false, val callback: (minutes: Int) -> Unit) {

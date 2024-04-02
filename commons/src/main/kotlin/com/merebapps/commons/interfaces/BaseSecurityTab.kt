@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.interfaces
+package com.merebapps.commons.interfaces
 
 import android.content.Context
 import android.os.Handler
@@ -8,12 +8,12 @@ import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.annotation.ColorInt
 import androidx.core.os.postDelayed
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.extensions.baseConfig
-import com.simplemobiletools.commons.extensions.countdown
-import com.simplemobiletools.commons.extensions.getProperTextColor
-import com.simplemobiletools.commons.helpers.DEFAULT_PASSWORD_COUNTDOWN
-import com.simplemobiletools.commons.helpers.MAX_PASSWORD_RETRY_COUNT
+import com.merebapps.commons.R
+import com.merebapps.commons.extensions.baseConfig
+import com.merebapps.commons.extensions.countdown
+import com.merebapps.commons.extensions.getProperTextColor
+import com.merebapps.commons.helpers.DEFAULT_PASSWORD_COUNTDOWN
+import com.merebapps.commons.helpers.MAX_PASSWORD_RETRY_COUNT
 
 abstract class BaseSecurityTab(context: Context, attrs: AttributeSet) : RelativeLayout(context, attrs), SecurityTab {
 

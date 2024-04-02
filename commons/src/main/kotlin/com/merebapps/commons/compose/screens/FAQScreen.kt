@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.screens
+package com.merebapps.commons.compose.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.itemsIndexed
@@ -9,15 +9,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.components.LinkifyTextComponent
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.lists.SimpleLazyListScaffold
-import com.simplemobiletools.commons.compose.settings.SettingsHorizontalDivider
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
-import com.simplemobiletools.commons.extensions.fromHtml
-import com.simplemobiletools.commons.models.FAQItem
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.components.LinkifyTextComponent
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.lists.SimpleLazyListScaffold
+import com.merebapps.commons.compose.settings.SettingsHorizontalDivider
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.extensions.fromHtml
+import com.merebapps.commons.models.FAQItem
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 

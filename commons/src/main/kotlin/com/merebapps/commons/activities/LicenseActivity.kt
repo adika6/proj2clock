@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.activities
+package com.merebapps.commons.activities
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -6,13 +6,13 @@ import androidx.activity.compose.setContent
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.enableEdgeToEdgeSimple
-import com.simplemobiletools.commons.compose.screens.LicenseScreen
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.extensions.launchViewIntent
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.License
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.extensions.enableEdgeToEdgeSimple
+import com.merebapps.commons.compose.screens.LicenseScreen
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.extensions.launchViewIntent
+import com.merebapps.commons.helpers.*
+import com.merebapps.commons.models.License
 import kotlinx.collections.immutable.toImmutableList
 
 class LicenseActivity : ComponentActivity() {

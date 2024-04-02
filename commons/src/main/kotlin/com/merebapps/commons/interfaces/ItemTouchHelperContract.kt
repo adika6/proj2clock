@@ -1,6 +1,6 @@
-package com.simplemobiletools.commons.interfaces
+package com.merebapps.commons.interfaces
 
-import com.simplemobiletools.commons.adapters.MyRecyclerViewAdapter
+import com.merebapps.commons.adapters.MyRecyclerViewAdapter
 
 interface ItemTouchHelperContract {
     fun onRowMoved(fromPosition: Int, toPosition: Int)

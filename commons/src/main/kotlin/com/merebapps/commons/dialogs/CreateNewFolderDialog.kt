@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import android.view.View
 import androidx.appcompat.app.AlertDialog
@@ -16,15 +16,15 @@ import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.compose.alert_dialog.*
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
-import com.simplemobiletools.commons.databinding.DialogCreateNewFolderBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.isRPlus
+import com.merebapps.commons.R
+import com.merebapps.commons.activities.BaseSimpleActivity
+import com.merebapps.commons.compose.alert_dialog.*
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.databinding.DialogCreateNewFolderBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.isRPlus
 import java.io.File
 
 class CreateNewFolderDialog(val activity: BaseSimpleActivity, val path: String, val callback: (path: String) -> Unit) {

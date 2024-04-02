@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.extensions
+package com.merebapps.commons.compose.extensions
 
 import android.app.Activity
 import android.content.Context
@@ -24,12 +24,12 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.LifecycleResumeEffect
 import androidx.lifecycle.compose.LifecycleStartEffect
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.system_ui_controller.rememberSystemUiController
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
-import com.simplemobiletools.commons.compose.theme.isLitWell
-import com.simplemobiletools.commons.extensions.darkenColor
-import com.simplemobiletools.commons.extensions.launchViewIntent
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.system_ui_controller.rememberSystemUiController
+import com.merebapps.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.compose.theme.isLitWell
+import com.merebapps.commons.extensions.darkenColor
+import com.merebapps.commons.extensions.launchViewIntent
 
 fun Context.getActivity(): Activity {
     return when (this) {

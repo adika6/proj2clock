@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.activities
+package com.merebapps.commons.activities
 
 import android.app.Activity
 import android.app.Application
@@ -14,18 +14,18 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.alert_dialog.rememberAlertDialogState
-import com.simplemobiletools.commons.compose.extensions.enableEdgeToEdgeSimple
-import com.simplemobiletools.commons.compose.extensions.onEventValue
-import com.simplemobiletools.commons.compose.screens.ManageBlockedNumbersScreen
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.dialogs.AddOrEditBlockedNumberAlertDialog
-import com.simplemobiletools.commons.dialogs.ExportBlockedNumbersDialog
-import com.simplemobiletools.commons.dialogs.FilePickerDialog
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.BlockedNumber
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.alert_dialog.rememberAlertDialogState
+import com.merebapps.commons.compose.extensions.enableEdgeToEdgeSimple
+import com.merebapps.commons.compose.extensions.onEventValue
+import com.merebapps.commons.compose.screens.ManageBlockedNumbersScreen
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.dialogs.AddOrEditBlockedNumberAlertDialog
+import com.merebapps.commons.dialogs.ExportBlockedNumbersDialog
+import com.merebapps.commons.dialogs.FilePickerDialog
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.*
+import com.merebapps.commons.models.BlockedNumber
 import java.io.FileOutputStream
 import java.io.OutputStream
 import kotlinx.collections.immutable.ImmutableList
@@ -68,7 +68,7 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
             val isBlockingHiddenNumbers by config.isBlockingHiddenNumbers.collectAsStateWithLifecycle(initialValue = config.blockHiddenNumbers)
             val isBlockingUnknownNumbers by config.isBlockingUnknownNumbers.collectAsStateWithLifecycle(initialValue = config.blockUnknownNumbers)
             val isDialer = remember {
-                config.appId.startsWith("com.simplemobiletools.dialer")
+                config.appId.startsWith("com.merebapps.dialer")
             }
             val isDefaultDialer: Boolean = onEventValue {
                 context.isDefaultDialer()
@@ -219,7 +219,7 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
     }
 
     private fun maybeSetDefaultCallerIdApp() {
-        if (isQPlus() && baseConfig.appId.startsWith("com.simplemobiletools.dialer")) {
+        if (isQPlus() && baseConfig.appId.startsWith("com.merebapps.dialer")) {
             setDefaultCallerIdApp()
         }
     }

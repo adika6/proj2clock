@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.text.KeyboardOptions
@@ -14,11 +14,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.TextFieldValue
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.alert_dialog.*
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.models.BlockedNumber
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.alert_dialog.*
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.models.BlockedNumber
 
 @Composable
 fun AddOrEditBlockedNumberAlertDialog(

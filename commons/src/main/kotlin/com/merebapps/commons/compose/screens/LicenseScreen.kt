@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.screens
+package com.merebapps.commons.compose.screens
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -10,14 +10,14 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.lists.SimpleLazyListScaffold
-import com.simplemobiletools.commons.compose.settings.SettingsHorizontalDivider
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.License
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.lists.SimpleLazyListScaffold
+import com.merebapps.commons.compose.settings.SettingsHorizontalDivider
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.helpers.*
+import com.merebapps.commons.models.License
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 

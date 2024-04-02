@@ -1,7 +1,7 @@
-package com.simplemobiletools.commons.extensions
+package com.merebapps.commons.extensions
 
 import android.content.Context
-import com.simplemobiletools.commons.models.FileDirItem
+import com.merebapps.commons.models.FileDirItem
 
 fun FileDirItem.isRecycleBinPath(context: Context): Boolean {
     return path.startsWith(context.recycleBinPath)

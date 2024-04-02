@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.fragments
+package com.merebapps.commons.fragments
 
 import android.graphics.drawable.LayerDrawable
 import android.os.Bundle
@@ -7,9 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.res.ResourcesCompat
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.DialogBottomSheetBinding
-import com.simplemobiletools.commons.extensions.*
+import com.merebapps.commons.R
+import com.merebapps.commons.databinding.DialogBottomSheetBinding
+import com.merebapps.commons.extensions.*
 
 abstract class BaseBottomSheetDialogFragment : BottomSheetDialogFragment() {
 

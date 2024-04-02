@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import android.app.Activity
 import android.net.Uri
@@ -8,12 +8,12 @@ import android.view.View
 import android.widget.LinearLayout
 import androidx.appcompat.app.AlertDialog
 import androidx.exifinterface.media.ExifInterface
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.FileDirItem
-import com.simplemobiletools.commons.views.MyTextView
+import com.merebapps.commons.R
+import com.merebapps.commons.activities.BaseSimpleActivity
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.*
+import com.merebapps.commons.models.FileDirItem
+import com.merebapps.commons.views.MyTextView
 import java.io.File
 import java.util.*
 
@@ -169,7 +169,7 @@ class PropertiesDialog : BasePropertiesDialog {
                 return
             }
 
-            if (mActivity.baseConfig.appId.removeSuffix(".debug") == "com.simplemobiletools.filemanager.pro") {
+            if (mActivity.baseConfig.appId.removeSuffix(".debug") == "com.merebapps.filemanager.pro") {
                 addProperty(R.string.md5, "…", R.id.properties_md5)
                 ensureBackgroundThread {
                     val md5 = if (mActivity.isRestrictedSAFOnlyRoot(path)) {

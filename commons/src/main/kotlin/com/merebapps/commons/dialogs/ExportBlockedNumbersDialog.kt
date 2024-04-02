@@ -1,12 +1,12 @@
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import androidx.appcompat.app.AlertDialog
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.DialogExportBlockedNumbersBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.BLOCKED_NUMBERS_EXPORT_EXTENSION
-import com.simplemobiletools.commons.helpers.ensureBackgroundThread
+import com.merebapps.commons.R
+import com.merebapps.commons.activities.BaseSimpleActivity
+import com.merebapps.commons.databinding.DialogExportBlockedNumbersBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.BLOCKED_NUMBERS_EXPORT_EXTENSION
+import com.merebapps.commons.helpers.ensureBackgroundThread
 import java.io.File
 
 class ExportBlockedNumbersDialog(

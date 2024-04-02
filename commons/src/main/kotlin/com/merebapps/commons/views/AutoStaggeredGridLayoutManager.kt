@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.views
+package com.merebapps.commons.views
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager

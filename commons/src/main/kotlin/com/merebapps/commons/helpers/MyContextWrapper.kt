@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.helpers
+package com.merebapps.commons.helpers
 
 import android.annotation.TargetApi
 import android.content.Context

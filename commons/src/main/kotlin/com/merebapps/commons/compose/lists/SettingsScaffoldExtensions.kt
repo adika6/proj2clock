@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.lists
+package com.merebapps.commons.compose.lists
 
 import android.content.Context
 import androidx.compose.foundation.background
@@ -10,15 +10,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.platform.LocalLayoutDirection
-import com.simplemobiletools.commons.compose.extensions.onEventValue
-import com.simplemobiletools.commons.compose.system_ui_controller.rememberSystemUiController
-import com.simplemobiletools.commons.compose.theme.LocalTheme
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
-import com.simplemobiletools.commons.compose.theme.isNotLitWell
-import com.simplemobiletools.commons.compose.theme.isSurfaceLitWell
-import com.simplemobiletools.commons.compose.theme.model.Theme
-import com.simplemobiletools.commons.extensions.getColoredMaterialStatusBarColor
-import com.simplemobiletools.commons.extensions.getContrastColor
+import com.merebapps.commons.compose.extensions.onEventValue
+import com.merebapps.commons.compose.system_ui_controller.rememberSystemUiController
+import com.merebapps.commons.compose.theme.LocalTheme
+import com.merebapps.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.compose.theme.isNotLitWell
+import com.merebapps.commons.compose.theme.isSurfaceLitWell
+import com.merebapps.commons.compose.theme.model.Theme
+import com.merebapps.commons.extensions.getColoredMaterialStatusBarColor
+import com.merebapps.commons.extensions.getContrastColor
 
 @Composable
 internal fun SystemUISettingsScaffoldStatusBarColor(scrolledColor: Color) {

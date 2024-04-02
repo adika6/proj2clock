@@ -1,17 +1,17 @@
-package com.simplemobiletools.commons.views
+package com.merebapps.commons.views
 
 import android.content.ContentValues
 import android.content.Context
 import android.provider.MediaStore
 import android.util.AttributeSet
 import android.widget.RelativeLayout
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.TabRenameSimpleBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.interfaces.RenameTab
-import com.simplemobiletools.commons.models.Android30RenameFormat
-import com.simplemobiletools.commons.models.FileDirItem
+import com.merebapps.commons.R
+import com.merebapps.commons.activities.BaseSimpleActivity
+import com.merebapps.commons.databinding.TabRenameSimpleBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.interfaces.RenameTab
+import com.merebapps.commons.models.Android30RenameFormat
+import com.merebapps.commons.models.FileDirItem
 import java.io.File
 
 class RenameSimpleTab(context: Context, attrs: AttributeSet) : RelativeLayout(context, attrs), RenameTab {

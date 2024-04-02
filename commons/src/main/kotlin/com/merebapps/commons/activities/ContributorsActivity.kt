@@ -1,14 +1,14 @@
-package com.simplemobiletools.commons.activities
+package com.merebapps.commons.activities
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.runtime.remember
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.enableEdgeToEdgeSimple
-import com.simplemobiletools.commons.compose.screens.ContributorsScreen
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.models.LanguageContributor
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.extensions.enableEdgeToEdgeSimple
+import com.merebapps.commons.compose.screens.ContributorsScreen
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.models.LanguageContributor
 import kotlinx.collections.immutable.toImmutableList
 
 class ContributorsActivity : AppCompatActivity() {

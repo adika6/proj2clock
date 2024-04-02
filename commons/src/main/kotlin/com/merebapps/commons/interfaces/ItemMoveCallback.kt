@@ -1,8 +1,8 @@
-package com.simplemobiletools.commons.interfaces
+package com.merebapps.commons.interfaces
 
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
-import com.simplemobiletools.commons.adapters.MyRecyclerViewAdapter
+import com.merebapps.commons.adapters.MyRecyclerViewAdapter
 
 open class ItemMoveCallback(private val mAdapter: ItemTouchHelperContract, private val allowHorizontalDrag: Boolean = false) : ItemTouchHelper.Callback() {
     override fun isLongPressDragEnabled() = false

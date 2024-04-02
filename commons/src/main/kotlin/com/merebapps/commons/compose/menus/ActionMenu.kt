@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.menus
+package com.merebapps.commons.compose.menus
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.background
@@ -24,15 +24,15 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.alert_dialog.dialogBorder
-import com.simplemobiletools.commons.compose.alert_dialog.dialogContainerColor
-import com.simplemobiletools.commons.compose.components.SimpleDropDownMenuItem
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.extensions.rememberMutableInteractionSource
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.Shapes
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.alert_dialog.dialogBorder
+import com.merebapps.commons.compose.alert_dialog.dialogContainerColor
+import com.merebapps.commons.compose.components.SimpleDropDownMenuItem
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.extensions.rememberMutableInteractionSource
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.theme.Shapes
+import com.merebapps.commons.compose.theme.SimpleTheme
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.activities
+package com.merebapps.commons.activities
 
 import android.animation.ArgbEvaluator
 import android.animation.ValueAnimator
@@ -39,16 +39,16 @@ import androidx.core.view.ScrollingView
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.widget.NestedScrollView
 import androidx.recyclerview.widget.RecyclerView
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.asynctasks.CopyMoveTask
-import com.simplemobiletools.commons.compose.extensions.DEVELOPER_PLAY_STORE_URL
-import com.simplemobiletools.commons.dialogs.*
-import com.simplemobiletools.commons.dialogs.WritePermissionDialog.WritePermissionDialogMode
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.interfaces.CopyMoveListener
-import com.simplemobiletools.commons.models.FAQItem
-import com.simplemobiletools.commons.models.FileDirItem
+import com.merebapps.commons.R
+import com.merebapps.commons.asynctasks.CopyMoveTask
+import com.merebapps.commons.compose.extensions.DEVELOPER_PLAY_STORE_URL
+import com.merebapps.commons.dialogs.*
+import com.merebapps.commons.dialogs.WritePermissionDialog.WritePermissionDialogMode
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.*
+import com.merebapps.commons.interfaces.CopyMoveListener
+import com.merebapps.commons.models.FAQItem
+import com.merebapps.commons.models.FileDirItem
 import java.io.File
 import java.io.OutputStream
 import java.util.regex.Pattern
@@ -97,9 +97,9 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
 
         super.onCreate(savedInstanceState)
-        if (!packageName.startsWith("com.simplemobiletools.", true)) {
+        if (!packageName.startsWith("com.merebapps.", true)) {
             if ((0..50).random() == 10 || baseConfig.appRunCount % 100 == 0) {
-                val label = "You are using a fake version of the app. For your own safety download the original one from www.simplemobiletools.com. Thanks"
+                val label = "You are using a fake version of the app. For your own safety download the original one from www.merebapps.com. Thanks"
                 ConfirmationDialog(this, label, positive = R.string.ok, negative = 0) {
                     launchViewIntent(DEVELOPER_PLAY_STORE_URL)
                 }
@@ -642,7 +642,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     fun startCustomizationActivity() {
         if (!packageName.contains("slootelibomelpmis".reversed(), true)) {
             if (baseConfig.appRunCount > 100) {
-                val label = "You are using a fake version of the app. For your own safety download the original one from www.simplemobiletools.com. Thanks"
+                val label = "You are using a fake version of the app. For your own safety download the original one from www.merebapps.com. Thanks"
                 ConfirmationDialog(this, label, positive = R.string.ok, negative = 0) {
                     launchViewIntent(DEVELOPER_PLAY_STORE_URL)
                 }
@@ -688,7 +688,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     // synchronous return value determines only if we are showing the SAF dialog, callback result tells if the SD or OTG permission has been granted
     fun handleSAFDialog(path: String, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("com.simplemobiletools")) {
+        return if (!packageName.startsWith("com.merebapps")) {
             callback(true)
             false
         } else if (isShowingSAFDialog(path) || isShowingOTGDialog(path)) {
@@ -702,7 +702,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     fun handleSAFDialogSdk30(path: String, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("com.simplemobiletools")) {
+        return if (!packageName.startsWith("com.merebapps")) {
             callback(true)
             false
         } else if (isShowingSAFDialogSdk30(path)) {
@@ -726,7 +726,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     fun handleSAFCreateDocumentDialogSdk30(path: String, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("com.simplemobiletools")) {
+        return if (!packageName.startsWith("com.merebapps")) {
             callback(true)
             false
         } else if (isShowingSAFCreateDocumentDialogSdk30(path)) {
@@ -740,7 +740,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     fun handleAndroidSAFDialog(path: String, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("com.simplemobiletools")) {
+        return if (!packageName.startsWith("com.merebapps")) {
             callback(true)
             false
         } else if (isShowingAndroidSAFDialog(path)) {
@@ -1180,7 +1180,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     private fun getExportSettingsFilename(): String {
-        val appName = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.simplemobiletools.")
+        val appName = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.merebapps.")
         return "$appName-settings_${getCurrentFormattedDateTime()}"
     }
 

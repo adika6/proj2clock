@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.activities
+package com.merebapps.commons.activities
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -14,17 +14,17 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.net.toUri
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.alert_dialog.rememberAlertDialogState
-import com.simplemobiletools.commons.compose.extensions.enableEdgeToEdgeSimple
-import com.simplemobiletools.commons.compose.extensions.rateStarsRedirectAndThankYou
-import com.simplemobiletools.commons.compose.screens.*
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.dialogs.ConfirmationAdvancedAlertDialog
-import com.simplemobiletools.commons.dialogs.RateStarsAlertDialog
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.FAQItem
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.alert_dialog.rememberAlertDialogState
+import com.merebapps.commons.compose.extensions.enableEdgeToEdgeSimple
+import com.merebapps.commons.compose.extensions.rateStarsRedirectAndThankYou
+import com.merebapps.commons.compose.screens.*
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.dialogs.ConfirmationAdvancedAlertDialog
+import com.merebapps.commons.dialogs.RateStarsAlertDialog
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.*
+import com.merebapps.commons.models.FAQItem
 
 class AboutActivity : ComponentActivity() {
     private val appName get() = intent.getStringExtra(APP_NAME) ?: ""
@@ -198,7 +198,7 @@ class AboutActivity : ComponentActivity() {
         val separator = "------------------------------"
         val body = "$appVersion$newline$deviceOS$newline$separator$newline$newline"
 
-        val address = if (packageName.startsWith("com.simplemobiletools")) {
+        val address = if (packageName.startsWith("com.merebapps")) {
             getString(R.string.my_email)
         } else {
             getString(R.string.my_fake_email)
@@ -271,7 +271,7 @@ class AboutActivity : ComponentActivity() {
     }
 
     private fun onFacebookClick() {
-        var link = "https://www.facebook.com/simplemobiletools"
+        var link = "https://www.facebook.com/merebapps"
         try {
             packageManager.getPackageInfo("com.facebook.katana", 0)
             link = "fb://page/150270895341774"
@@ -282,26 +282,26 @@ class AboutActivity : ComponentActivity() {
     }
 
     private fun onGithubClick() {
-        launchViewIntent("https://github.com/SimpleMobileTools")
+        launchViewIntent("https://github.com/merebapps")
     }
 
     private fun onRedditClick() {
-        launchViewIntent("https://www.reddit.com/r/SimpleMobileTools")
+        launchViewIntent("https://www.reddit.com/r/merebapps")
     }
 
 
     private fun onTelegramClick() {
-        launchViewIntent("https://t.me/SimpleMobileTools")
+        launchViewIntent("https://t.me/merebapps")
     }
 
 
     private fun onWebsiteClick() {
-        launchViewIntent("https://simplemobiletools.com/")
+        launchViewIntent("https://merebapps.com/")
     }
 
     private fun onPrivacyPolicyClick() {
-        val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.simplemobiletools.")
-        val url = "https://simplemobiletools.com/privacy/$appId.txt"
+        val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.merebapps.")
+        val url = "https://merebapps.com/privacy/$appId.txt"
         launchViewIntent(url)
     }
 

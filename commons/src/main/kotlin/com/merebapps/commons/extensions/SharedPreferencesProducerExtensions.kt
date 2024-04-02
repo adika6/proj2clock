@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package com.merebapps.commons.extensions
 
 import android.content.SharedPreferences
 import kotlinx.coroutines.channels.awaitClose

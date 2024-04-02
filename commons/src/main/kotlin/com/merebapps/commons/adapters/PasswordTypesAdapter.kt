@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.adapters
+package com.merebapps.commons.adapters
 
 import android.content.Context
 import android.util.SparseArray
@@ -7,14 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.biometric.auth.AuthPromptHost
 import androidx.viewpager.widget.PagerAdapter
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.helpers.PROTECTION_FINGERPRINT
-import com.simplemobiletools.commons.helpers.PROTECTION_PATTERN
-import com.simplemobiletools.commons.helpers.PROTECTION_PIN
-import com.simplemobiletools.commons.helpers.isRPlus
-import com.simplemobiletools.commons.interfaces.HashListener
-import com.simplemobiletools.commons.interfaces.SecurityTab
-import com.simplemobiletools.commons.views.MyScrollView
+import com.merebapps.commons.R
+import com.merebapps.commons.helpers.PROTECTION_FINGERPRINT
+import com.merebapps.commons.helpers.PROTECTION_PATTERN
+import com.merebapps.commons.helpers.PROTECTION_PIN
+import com.merebapps.commons.helpers.isRPlus
+import com.merebapps.commons.interfaces.HashListener
+import com.merebapps.commons.interfaces.SecurityTab
+import com.merebapps.commons.views.MyScrollView
 
 class PasswordTypesAdapter(
     private val context: Context,

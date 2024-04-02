@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package com.merebapps.commons.extensions
 
 import android.content.ContentUris
 import android.content.ContentValues
@@ -20,9 +20,9 @@ import androidx.annotation.RequiresApi
 import androidx.core.content.FileProvider
 import androidx.core.net.toUri
 import androidx.documentfile.provider.DocumentFile
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.FileDirItem
+import com.merebapps.commons.R
+import com.merebapps.commons.helpers.*
+import com.merebapps.commons.models.FileDirItem
 import java.io.*
 import java.net.URLDecoder
 import java.util.*

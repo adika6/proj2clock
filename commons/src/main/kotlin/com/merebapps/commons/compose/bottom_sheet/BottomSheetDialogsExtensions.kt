@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.bottom_sheet
+package com.merebapps.commons.compose.bottom_sheet
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -10,12 +10,12 @@ import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.simplemobiletools.commons.compose.alert_dialog.dialogContainerColor
-import com.simplemobiletools.commons.compose.alert_dialog.dialogElevation
-import com.simplemobiletools.commons.compose.theme.LocalTheme
-import com.simplemobiletools.commons.compose.theme.Shapes
-import com.simplemobiletools.commons.compose.theme.light_grey_stroke
-import com.simplemobiletools.commons.compose.theme.model.Theme
+import com.merebapps.commons.compose.alert_dialog.dialogContainerColor
+import com.merebapps.commons.compose.alert_dialog.dialogElevation
+import com.merebapps.commons.compose.theme.LocalTheme
+import com.merebapps.commons.compose.theme.Shapes
+import com.merebapps.commons.compose.theme.light_grey_stroke
+import com.merebapps.commons.compose.theme.model.Theme
 
 val bottomSheetDialogShape = Shapes.extraLarge.copy(
     bottomEnd = CornerSize(0f),

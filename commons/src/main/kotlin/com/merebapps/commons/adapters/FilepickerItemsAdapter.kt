@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.adapters
+package com.merebapps.commons.adapters
 
 import android.content.pm.PackageManager
 import android.graphics.drawable.Drawable
@@ -12,13 +12,13 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade
 import com.bumptech.glide.request.RequestOptions
 import com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.ItemFilepickerListBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.getFilePlaceholderDrawables
-import com.simplemobiletools.commons.models.FileDirItem
-import com.simplemobiletools.commons.views.MyRecyclerView
+import com.merebapps.commons.R
+import com.merebapps.commons.activities.BaseSimpleActivity
+import com.merebapps.commons.databinding.ItemFilepickerListBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.getFilePlaceholderDrawables
+import com.merebapps.commons.models.FileDirItem
+import com.merebapps.commons.views.MyRecyclerView
 import java.util.Locale
 
 class FilepickerItemsAdapter(

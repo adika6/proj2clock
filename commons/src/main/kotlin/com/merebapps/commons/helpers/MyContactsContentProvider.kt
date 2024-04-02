@@ -1,20 +1,20 @@
-package com.simplemobiletools.commons.helpers
+package com.merebapps.commons.helpers
 
 import android.content.Context
 import android.database.Cursor
 import android.net.Uri
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.simplemobiletools.commons.extensions.getIntValue
-import com.simplemobiletools.commons.extensions.getStringValue
-import com.simplemobiletools.commons.models.PhoneNumber
-import com.simplemobiletools.commons.models.SimpleContact
-import com.simplemobiletools.commons.models.contacts.Contact
+import com.merebapps.commons.extensions.getIntValue
+import com.merebapps.commons.extensions.getStringValue
+import com.merebapps.commons.models.PhoneNumber
+import com.merebapps.commons.models.SimpleContact
+import com.merebapps.commons.models.contacts.Contact
 
 // used for sharing privately stored contacts in Simple Contacts with Simple Dialer, Simple SMS Messenger and Simple Calendar Pro
 class MyContactsContentProvider {
     companion object {
-        private const val AUTHORITY = "com.simplemobiletools.commons.contactsprovider"
+        private const val AUTHORITY = "com.merebapps.commons.contactsprovider"
         val CONTACTS_CONTENT_URI = Uri.parse("content://$AUTHORITY/contacts")
 
         const val FAVORITES_ONLY = "favorites_only"
@@ -29,7 +29,7 @@ class MyContactsContentProvider {
         fun getSimpleContacts(context: Context, cursor: Cursor?): ArrayList<SimpleContact> {
             val contacts = ArrayList<SimpleContact>()
             val packageName = context.packageName.removeSuffix(".debug")
-            if (packageName != "com.simplemobiletools.dialer" && packageName != "com.simplemobiletools.smsmessenger" && packageName != "com.simplemobiletools.calendar.pro") {
+            if (packageName != "com.merebapps.dialer" && packageName != "com.merebapps.smsmessenger" && packageName != "com.merebapps.calendar.pro") {
                 return contacts
             }
 
@@ -65,7 +65,7 @@ class MyContactsContentProvider {
         fun getContacts(context: Context, cursor: Cursor?): ArrayList<Contact> {
             val contacts = ArrayList<Contact>()
             val packageName = context.packageName.removeSuffix(".debug")
-            if (packageName != "com.simplemobiletools.dialer" && packageName != "com.simplemobiletools.smsmessenger" && packageName != "com.simplemobiletools.calendar.pro") {
+            if (packageName != "com.merebapps.dialer" && packageName != "com.merebapps.smsmessenger" && packageName != "com.merebapps.calendar.pro") {
                 return contacts
             }
 

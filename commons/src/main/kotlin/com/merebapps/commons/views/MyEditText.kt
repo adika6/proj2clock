@@ -1,11 +1,11 @@
-package com.simplemobiletools.commons.views
+package com.merebapps.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatEditText
-import com.simplemobiletools.commons.extensions.adjustAlpha
-import com.simplemobiletools.commons.extensions.applyColorFilter
-import com.simplemobiletools.commons.helpers.MEDIUM_ALPHA
+import com.merebapps.commons.extensions.adjustAlpha
+import com.merebapps.commons.extensions.applyColorFilter
+import com.merebapps.commons.helpers.MEDIUM_ALPHA
 
 class MyEditText : AppCompatEditText {
     constructor(context: Context) : super(context)

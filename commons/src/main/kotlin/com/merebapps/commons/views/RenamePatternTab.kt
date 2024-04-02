@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.views
+package com.merebapps.commons.views
 
 import android.content.ContentValues
 import android.content.Context
@@ -7,14 +7,14 @@ import android.text.format.DateFormat
 import android.util.AttributeSet
 import android.widget.RelativeLayout
 import androidx.exifinterface.media.ExifInterface
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databinding.DialogRenameItemsPatternBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.isNougatPlus
-import com.simplemobiletools.commons.interfaces.RenameTab
-import com.simplemobiletools.commons.models.Android30RenameFormat
-import com.simplemobiletools.commons.models.FileDirItem
+import com.merebapps.commons.R
+import com.merebapps.commons.activities.BaseSimpleActivity
+import com.merebapps.commons.databinding.DialogRenameItemsPatternBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.isNougatPlus
+import com.merebapps.commons.interfaces.RenameTab
+import com.merebapps.commons.models.Android30RenameFormat
+import com.merebapps.commons.models.FileDirItem
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Calendar

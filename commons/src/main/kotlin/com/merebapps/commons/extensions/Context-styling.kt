@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package com.merebapps.commons.extensions
 
 import android.annotation.SuppressLint
 import android.content.ComponentName
@@ -8,10 +8,10 @@ import android.content.res.Configuration
 import android.graphics.Color
 import android.view.ViewGroup
 import androidx.loader.content.CursorLoader
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.SharedTheme
-import com.simplemobiletools.commons.views.*
+import com.merebapps.commons.R
+import com.merebapps.commons.helpers.*
+import com.merebapps.commons.models.SharedTheme
+import com.merebapps.commons.views.*
 
 // handle system default theme (Material You) specially as the color is taken from the system, not hardcoded by us
 fun Context.getProperTextColor() = if (baseConfig.isUsingSystemTheme) {

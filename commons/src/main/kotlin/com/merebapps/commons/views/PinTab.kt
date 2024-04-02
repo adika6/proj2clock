@@ -1,17 +1,17 @@
-package com.simplemobiletools.commons.views
+package com.merebapps.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.TextView
 import android.widget.Toast
 import androidx.biometric.auth.AuthPromptHost
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.TabPinBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.MINIMUM_PIN_LENGTH
-import com.simplemobiletools.commons.helpers.PROTECTION_PIN
-import com.simplemobiletools.commons.interfaces.BaseSecurityTab
-import com.simplemobiletools.commons.interfaces.HashListener
+import com.merebapps.commons.R
+import com.merebapps.commons.databinding.TabPinBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.MINIMUM_PIN_LENGTH
+import com.merebapps.commons.helpers.PROTECTION_PIN
+import com.merebapps.commons.interfaces.BaseSecurityTab
+import com.merebapps.commons.interfaces.HashListener
 import java.math.BigInteger
 import java.security.MessageDigest
 import java.util.Locale

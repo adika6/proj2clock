@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.models
+package com.merebapps.commons.models
 
 import android.os.Parcelable
 import androidx.compose.runtime.Immutable

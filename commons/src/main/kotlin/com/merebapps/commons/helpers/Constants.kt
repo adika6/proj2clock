@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.helpers
+package com.merebapps.commons.helpers
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -8,10 +8,10 @@ import android.provider.ContactsContract
 import android.util.Log
 import androidx.annotation.ChecksSdkIntAtLeast
 import androidx.annotation.StringRes
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.extensions.normalizeString
-import com.simplemobiletools.commons.models.contacts.LocalContact
-import com.simplemobiletools.commons.overloads.times
+import com.merebapps.commons.R
+import com.merebapps.commons.extensions.normalizeString
+import com.merebapps.commons.models.contacts.LocalContact
+import com.merebapps.commons.overloads.times
 
 const val EXTERNAL_STORAGE_PROVIDER_AUTHORITY = "com.android.externalstorage.documents"
 const val EXTRA_SHOW_ADVANCED = "android.content.extra.SHOW_ADVANCED"
@@ -25,7 +25,7 @@ const val APP_ID = "app_id"
 const val APP_LAUNCHER_NAME = "app_launcher_name"
 const val REAL_FILE_PATH = "real_file_path_2"
 const val IS_FROM_GALLERY = "is_from_gallery"
-const val BROADCAST_REFRESH_MEDIA = "com.simplemobiletools.REFRESH_MEDIA"
+const val BROADCAST_REFRESH_MEDIA = "com.merebapps.REFRESH_MEDIA"
 const val REFRESH_PATH = "refresh_path"
 const val IS_CUSTOMIZING_COLORS = "is_customizing_colors"
 const val BLOCKED_NUMBERS_EXPORT_DELIMITER = ","

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.adapters
+package com.merebapps.commons.adapters
 
 import android.graphics.Color
 import android.view.*
@@ -10,12 +10,12 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.interfaces.MyActionModeCallback
-import com.simplemobiletools.commons.models.RecyclerSelectionPayload
-import com.simplemobiletools.commons.views.MyRecyclerView
+import com.merebapps.commons.R
+import com.merebapps.commons.activities.BaseSimpleActivity
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.interfaces.MyActionModeCallback
+import com.merebapps.commons.models.RecyclerSelectionPayload
+import com.merebapps.commons.views.MyRecyclerView
 import kotlin.math.max
 import kotlin.math.min
 

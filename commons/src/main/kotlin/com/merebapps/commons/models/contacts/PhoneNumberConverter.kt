@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.models.contacts
+package com.merebapps.commons.models.contacts
 
 import androidx.annotation.Keep
 

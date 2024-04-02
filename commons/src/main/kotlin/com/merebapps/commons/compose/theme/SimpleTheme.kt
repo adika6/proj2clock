@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.theme
+package com.merebapps.commons.compose.theme
 
 import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.MaterialTheme
@@ -7,7 +7,7 @@ import androidx.compose.material3.Typography
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.ReadOnlyComposable
-import com.simplemobiletools.commons.compose.theme.model.Dimensions
+import com.merebapps.commons.compose.theme.model.Dimensions
 
 @Immutable
 object SimpleTheme {

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.samples.activities
+package com.merebapps.commons.samples.activities
 
 import android.os.Bundle
 import android.os.Environment
@@ -15,17 +15,17 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.alert_dialog.AlertDialogState
-import com.simplemobiletools.commons.compose.alert_dialog.rememberAlertDialogState
-import com.simplemobiletools.commons.compose.bottom_sheet.BottomSheetDialogState
-import com.simplemobiletools.commons.compose.bottom_sheet.rememberBottomSheetDialogState
-import com.simplemobiletools.commons.compose.extensions.config
-import com.simplemobiletools.commons.compose.extensions.rateStarsRedirectAndThankYou
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.dialogs.*
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.models.*
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.alert_dialog.AlertDialogState
+import com.merebapps.commons.compose.alert_dialog.rememberAlertDialogState
+import com.merebapps.commons.compose.bottom_sheet.BottomSheetDialogState
+import com.merebapps.commons.compose.bottom_sheet.rememberBottomSheetDialogState
+import com.merebapps.commons.compose.extensions.config
+import com.merebapps.commons.compose.extensions.rateStarsRedirectAndThankYou
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.dialogs.*
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.models.*
 import kotlinx.collections.immutable.toImmutableList
 
 class TestDialogActivity : ComponentActivity() {
@@ -184,7 +184,7 @@ class TestDialogActivity : ComponentActivity() {
     private fun getUpgradeToProAlertDialogState() = rememberAlertDialogState().apply {
         DialogMember {
             UpgradeToProAlertDialog(alertDialogState = this, onMoreInfoClick = {
-                launchViewIntent("https://simplemobiletools.com/upgrade_to_pro")
+                launchViewIntent("https://merebapps.com/upgrade_to_pro")
             }, onUpgradeClick = ::launchUpgradeToProIntent)
         }
     }

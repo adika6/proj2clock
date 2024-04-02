@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.lists
+package com.merebapps.commons.compose.lists
 
 import androidx.compose.foundation.gestures.FlingBehavior
 import androidx.compose.foundation.gestures.ScrollableDefaults
@@ -18,11 +18,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.simplemobiletools.commons.compose.extensions.AdjustNavigationBarColors
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.extensions.plus
-import com.simplemobiletools.commons.compose.extensions.rememberMutableInteractionSource
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.extensions.AdjustNavigationBarColors
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.extensions.plus
+import com.merebapps.commons.compose.extensions.rememberMutableInteractionSource
+import com.merebapps.commons.compose.theme.AppThemeSurface
 
 @Composable
 fun SimpleLazyListScaffold(

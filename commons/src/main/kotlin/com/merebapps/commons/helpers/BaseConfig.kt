@@ -1,15 +1,15 @@
-package com.simplemobiletools.commons.helpers
+package com.merebapps.commons.helpers
 
 import android.content.Context
 import android.content.res.Configuration
 import android.os.Environment
 import android.text.format.DateFormat
 import androidx.core.content.ContextCompat
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.extensions.getInternalStoragePath
-import com.simplemobiletools.commons.extensions.getSDCardPath
-import com.simplemobiletools.commons.extensions.getSharedPrefs
-import com.simplemobiletools.commons.extensions.sharedPreferencesCallback
+import com.merebapps.commons.R
+import com.merebapps.commons.extensions.getInternalStoragePath
+import com.merebapps.commons.extensions.getSDCardPath
+import com.merebapps.commons.extensions.getSharedPrefs
+import com.merebapps.commons.extensions.sharedPreferencesCallback
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.LinkedList

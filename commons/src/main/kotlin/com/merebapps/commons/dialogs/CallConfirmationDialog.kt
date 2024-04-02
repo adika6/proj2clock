@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import android.view.animation.AnimationUtils
 import androidx.compose.animation.core.*
@@ -25,16 +25,16 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.compose.alert_dialog.*
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.databinding.DialogCallConfirmationBinding
-import com.simplemobiletools.commons.extensions.applyColorFilter
-import com.simplemobiletools.commons.extensions.getAlertDialogBuilder
-import com.simplemobiletools.commons.extensions.getProperTextColor
-import com.simplemobiletools.commons.extensions.setupDialogStuff
+import com.merebapps.commons.R
+import com.merebapps.commons.activities.BaseSimpleActivity
+import com.merebapps.commons.compose.alert_dialog.*
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.databinding.DialogCallConfirmationBinding
+import com.merebapps.commons.extensions.applyColorFilter
+import com.merebapps.commons.extensions.getAlertDialogBuilder
+import com.merebapps.commons.extensions.getProperTextColor
+import com.merebapps.commons.extensions.setupDialogStuff
 
 class CallConfirmationDialog(val activity: BaseSimpleActivity, val callee: String, private val callback: () -> Unit) {
     private var view = DialogCallConfirmationBinding.inflate(activity.layoutInflater, null, false)

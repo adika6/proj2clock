@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package com.merebapps.commons.extensions
 
 import android.annotation.TargetApi
 import android.content.Context
@@ -10,19 +10,19 @@ import android.os.Handler
 import android.os.Looper
 import android.provider.ContactsContract
 import android.telephony.PhoneNumberUtils
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.databases.ContactsDatabase
-import com.simplemobiletools.commons.dialogs.CallConfirmationDialog
-import com.simplemobiletools.commons.dialogs.RadioGroupDialog
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.interfaces.ContactsDao
-import com.simplemobiletools.commons.interfaces.GroupsDao
-import com.simplemobiletools.commons.models.RadioItem
-import com.simplemobiletools.commons.models.contacts.Contact
-import com.simplemobiletools.commons.models.contacts.ContactSource
-import com.simplemobiletools.commons.models.contacts.Organization
-import com.simplemobiletools.commons.models.contacts.SocialAction
+import com.merebapps.commons.R
+import com.merebapps.commons.activities.BaseSimpleActivity
+import com.merebapps.commons.databases.ContactsDatabase
+import com.merebapps.commons.dialogs.CallConfirmationDialog
+import com.merebapps.commons.dialogs.RadioGroupDialog
+import com.merebapps.commons.helpers.*
+import com.merebapps.commons.interfaces.ContactsDao
+import com.merebapps.commons.interfaces.GroupsDao
+import com.merebapps.commons.models.RadioItem
+import com.merebapps.commons.models.contacts.Contact
+import com.merebapps.commons.models.contacts.ContactSource
+import com.merebapps.commons.models.contacts.Organization
+import com.merebapps.commons.models.contacts.SocialAction
 import java.io.File
 
 val Context.contactsDB: ContactsDao get() = ContactsDatabase.getInstance(applicationContext).ContactsDao()

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.helpers
+package com.merebapps.commons.helpers
 
 import android.content.Context
 import android.database.Cursor
@@ -24,10 +24,10 @@ import com.bumptech.glide.load.DecodeFormat
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestOptions
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.models.PhoneNumber
-import com.simplemobiletools.commons.models.SimpleContact
+import com.merebapps.commons.R
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.models.PhoneNumber
+import com.merebapps.commons.models.SimpleContact
 
 class SimpleContactsHelper(val context: Context) {
     fun getAvailableContacts(favoritesOnly: Boolean, callback: (ArrayList<SimpleContact>) -> Unit) {

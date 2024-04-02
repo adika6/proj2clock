@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.components
+package com.merebapps.commons.compose.components
 
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.clickable
@@ -10,11 +10,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.simplemobiletools.commons.compose.alert_dialog.dialogTextColor
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.extensions.rememberMutableInteractionSource
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.compose.alert_dialog.dialogTextColor
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.extensions.rememberMutableInteractionSource
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.theme.SimpleTheme
 
 @Composable
 fun RadioButtonDialogComponent(

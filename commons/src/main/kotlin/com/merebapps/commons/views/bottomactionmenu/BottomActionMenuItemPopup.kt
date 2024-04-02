@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.views.bottomactionmenu
+package com.merebapps.commons.views.bottomactionmenu
 
 import android.content.Context
 import android.graphics.Color
@@ -11,11 +11,11 @@ import android.widget.ListView
 import android.widget.PopupWindow
 import androidx.core.content.ContextCompat
 import androidx.core.widget.PopupWindowCompat
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.ItemActionModePopupBinding
-import com.simplemobiletools.commons.extensions.applyColorFilter
-import com.simplemobiletools.commons.extensions.windowManager
-import com.simplemobiletools.commons.helpers.isRPlus
+import com.merebapps.commons.R
+import com.merebapps.commons.databinding.ItemActionModePopupBinding
+import com.merebapps.commons.extensions.applyColorFilter
+import com.merebapps.commons.extensions.windowManager
+import com.merebapps.commons.helpers.isRPlus
 
 class BottomActionMenuItemPopup(
     private val context: Context,

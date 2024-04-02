@@ -1,9 +1,9 @@
-package com.simplemobiletools.commons.helpers
+package com.merebapps.commons.helpers
 
 import android.app.Activity
 import android.telephony.PhoneNumberUtils
-import com.simplemobiletools.commons.extensions.addBlockedNumber
-import com.simplemobiletools.commons.extensions.showErrorToast
+import com.merebapps.commons.extensions.addBlockedNumber
+import com.merebapps.commons.extensions.showErrorToast
 import java.io.File
 
 class BlockedNumbersImporter(

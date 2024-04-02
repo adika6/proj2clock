@@ -1,16 +1,16 @@
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import android.view.LayoutInflater
 import android.view.WindowManager
 import androidx.appcompat.app.AlertDialog
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.adapters.RenameAdapter
-import com.simplemobiletools.commons.databinding.DialogRenameBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.RENAME_PATTERN
-import com.simplemobiletools.commons.helpers.RENAME_SIMPLE
-import com.simplemobiletools.commons.views.MyViewPager
+import com.merebapps.commons.R
+import com.merebapps.commons.activities.BaseSimpleActivity
+import com.merebapps.commons.adapters.RenameAdapter
+import com.merebapps.commons.databinding.DialogRenameBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.RENAME_PATTERN
+import com.merebapps.commons.helpers.RENAME_SIMPLE
+import com.merebapps.commons.views.MyViewPager
 
 class RenameDialog(val activity: BaseSimpleActivity, val paths: ArrayList<String>, val useMediaFileExtension: Boolean, val callback: () -> Unit) {
     var dialog: AlertDialog? = null

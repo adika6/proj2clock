@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import android.app.Activity
 import android.text.Html
@@ -29,23 +29,23 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.integration.compose.GlideImage
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.transition.DrawableCrossFadeFactory
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.compose.alert_dialog.AlertDialogState
-import com.simplemobiletools.commons.compose.alert_dialog.DialogSurface
-import com.simplemobiletools.commons.compose.alert_dialog.dialogTextColor
-import com.simplemobiletools.commons.compose.alert_dialog.rememberAlertDialogState
-import com.simplemobiletools.commons.compose.components.LinkifyTextComponent
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.extensions.andThen
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
-import com.simplemobiletools.commons.databinding.DialogWritePermissionBinding
-import com.simplemobiletools.commons.databinding.DialogWritePermissionOtgBinding
-import com.simplemobiletools.commons.extensions.fromHtml
-import com.simplemobiletools.commons.extensions.getAlertDialogBuilder
-import com.simplemobiletools.commons.extensions.humanizePath
-import com.simplemobiletools.commons.extensions.setupDialogStuff
+import com.merebapps.commons.R
+import com.merebapps.commons.activities.BaseSimpleActivity
+import com.merebapps.commons.compose.alert_dialog.AlertDialogState
+import com.merebapps.commons.compose.alert_dialog.DialogSurface
+import com.merebapps.commons.compose.alert_dialog.dialogTextColor
+import com.merebapps.commons.compose.alert_dialog.rememberAlertDialogState
+import com.merebapps.commons.compose.components.LinkifyTextComponent
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.extensions.andThen
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.databinding.DialogWritePermissionBinding
+import com.merebapps.commons.databinding.DialogWritePermissionOtgBinding
+import com.merebapps.commons.extensions.fromHtml
+import com.merebapps.commons.extensions.getAlertDialogBuilder
+import com.merebapps.commons.extensions.humanizePath
+import com.merebapps.commons.extensions.setupDialogStuff
 
 class WritePermissionDialog(activity: Activity, val writePermissionDialogMode: WritePermissionDialogMode, val callback: () -> Unit) {
 

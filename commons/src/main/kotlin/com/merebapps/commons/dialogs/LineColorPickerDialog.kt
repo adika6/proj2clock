@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import android.content.Context
 import android.view.WindowManager
@@ -22,18 +22,18 @@ import androidx.compose.ui.window.DialogWindowProvider
 import androidx.core.content.ContextCompat
 import androidx.core.view.updateLayoutParams
 import com.google.android.material.appbar.MaterialToolbar
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.compose.alert_dialog.AlertDialogState
-import com.simplemobiletools.commons.compose.alert_dialog.DialogSurface
-import com.simplemobiletools.commons.compose.alert_dialog.dialogTextColor
-import com.simplemobiletools.commons.compose.alert_dialog.rememberAlertDialogState
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
-import com.simplemobiletools.commons.databinding.DialogLineColorPickerBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.interfaces.LineColorPickerListener
+import com.merebapps.commons.R
+import com.merebapps.commons.activities.BaseSimpleActivity
+import com.merebapps.commons.compose.alert_dialog.AlertDialogState
+import com.merebapps.commons.compose.alert_dialog.DialogSurface
+import com.merebapps.commons.compose.alert_dialog.dialogTextColor
+import com.merebapps.commons.compose.alert_dialog.rememberAlertDialogState
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.databinding.DialogLineColorPickerBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.interfaces.LineColorPickerListener
 
 class LineColorPickerDialog(
     val activity: BaseSimpleActivity, val color: Int, val isPrimaryColorPicker: Boolean, val primaryColors: Int = R.array.md_primary_colors,

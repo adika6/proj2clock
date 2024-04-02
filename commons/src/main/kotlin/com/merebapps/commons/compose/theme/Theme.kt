@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.theme
+package com.merebapps.commons.compose.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.ripple.LocalRippleTheme
@@ -11,10 +11,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
-import com.simplemobiletools.commons.compose.extensions.config
-import com.simplemobiletools.commons.compose.theme.model.Theme
-import com.simplemobiletools.commons.compose.theme.model.Theme.Companion.systemDefaultMaterialYou
-import com.simplemobiletools.commons.helpers.isSPlus
+import com.merebapps.commons.compose.extensions.config
+import com.merebapps.commons.compose.theme.model.Theme
+import com.merebapps.commons.compose.theme.model.Theme.Companion.systemDefaultMaterialYou
+import com.merebapps.commons.helpers.isSPlus
 
 @Composable
 internal fun Theme(

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.views
+package com.merebapps.commons.views
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -11,12 +11,12 @@ import androidx.core.os.postDelayed
 import com.andrognito.patternlockview.PatternLockView
 import com.andrognito.patternlockview.listener.PatternLockViewListener
 import com.andrognito.patternlockview.utils.PatternLockUtils
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.TabPatternBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.PROTECTION_PATTERN
-import com.simplemobiletools.commons.interfaces.BaseSecurityTab
-import com.simplemobiletools.commons.interfaces.HashListener
+import com.merebapps.commons.R
+import com.merebapps.commons.databinding.TabPatternBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.PROTECTION_PATTERN
+import com.merebapps.commons.interfaces.BaseSecurityTab
+import com.merebapps.commons.interfaces.HashListener
 
 class PatternTab(context: Context, attrs: AttributeSet) : BaseSecurityTab(context, attrs) {
     private var scrollView: MyScrollView? = null

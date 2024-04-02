@@ -1,9 +1,9 @@
-package com.simplemobiletools.commons.extensions
+package com.merebapps.commons.extensions
 
 import android.app.Activity
 import android.graphics.Color
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.helpers.DARK_GREY
+import com.merebapps.commons.R
+import com.merebapps.commons.helpers.DARK_GREY
 
 fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop: Boolean = false) = when {
     baseConfig.isUsingSystemTheme -> if (isUsingSystemDarkTheme()) R.style.AppTheme_Base_System else R.style.AppTheme_Base_System_Light

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package com.merebapps.commons.extensions
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -10,7 +10,7 @@ import android.text.format.DateFormat
 import android.text.format.DateUtils
 import android.text.format.Time
 import androidx.core.os.postDelayed
-import com.simplemobiletools.commons.helpers.DARK_GREY
+import com.merebapps.commons.helpers.DARK_GREY
 import java.text.DecimalFormat
 import java.util.Calendar
 import java.util.Locale

@@ -1,5 +1,5 @@
 @file:SuppressLint("ClickableViewAccessibility")
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -31,18 +31,18 @@ import androidx.compose.ui.window.DialogProperties
 import androidx.compose.ui.window.DialogWindowProvider
 import androidx.core.view.children
 import androidx.core.view.updateLayoutParams
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.alert_dialog.AlertDialogState
-import com.simplemobiletools.commons.compose.alert_dialog.DialogSurface
-import com.simplemobiletools.commons.compose.alert_dialog.dialogBorder
-import com.simplemobiletools.commons.compose.alert_dialog.rememberAlertDialogState
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.extensions.config
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
-import com.simplemobiletools.commons.databinding.DialogColorPickerBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.isQPlus
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.alert_dialog.AlertDialogState
+import com.merebapps.commons.compose.alert_dialog.DialogSurface
+import com.merebapps.commons.compose.alert_dialog.dialogBorder
+import com.merebapps.commons.compose.alert_dialog.rememberAlertDialogState
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.extensions.config
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.databinding.DialogColorPickerBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.isQPlus
 import java.util.LinkedList
 
 private const val RECENT_COLORS_NUMBER = 5

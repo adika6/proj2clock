@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.settings
+package com.merebapps.commons.compose.settings
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
@@ -18,11 +18,11 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.TextUnit
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.BooleanPreviewParameterProvider
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.extensions.BooleanPreviewParameterProvider
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.theme.SimpleTheme
 
 @Composable
 fun SettingsListItem(

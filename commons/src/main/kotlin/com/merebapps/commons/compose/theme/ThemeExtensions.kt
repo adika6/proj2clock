@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.theme
+package com.merebapps.commons.compose.theme
 
 import android.content.Context
 import android.content.res.Configuration
@@ -7,7 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.platform.LocalContext
-import com.simplemobiletools.commons.compose.theme.model.Theme.Companion.systemDefaultMaterialYou
+import com.merebapps.commons.compose.theme.model.Theme.Companion.systemDefaultMaterialYou
 
 
 @Composable

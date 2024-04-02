@@ -1,6 +1,6 @@
-package com.simplemobiletools.commons.helpers
+package com.merebapps.commons.helpers
 
-import com.simplemobiletools.commons.models.BlockedNumber
+import com.merebapps.commons.models.BlockedNumber
 import java.io.OutputStream
 
 object BlockedNumbersExporter {

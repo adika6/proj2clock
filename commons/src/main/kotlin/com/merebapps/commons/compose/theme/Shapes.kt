@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.theme
+package com.merebapps.commons.compose.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Shapes

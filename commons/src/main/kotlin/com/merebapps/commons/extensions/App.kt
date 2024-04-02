@@ -1,7 +1,7 @@
-package com.simplemobiletools.commons.extensions
+package com.merebapps.commons.extensions
 
 import android.app.Application
-import com.simplemobiletools.commons.helpers.isNougatPlus
+import com.merebapps.commons.helpers.isNougatPlus
 import java.util.*
 
 fun Application.checkUseEnglish() {

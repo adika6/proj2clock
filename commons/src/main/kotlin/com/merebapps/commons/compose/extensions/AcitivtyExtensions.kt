@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.extensions
+package com.merebapps.commons.compose.extensions
 
 import android.app.Activity
 import android.content.ComponentName
@@ -10,10 +10,10 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.isOreoMr1Plus
-import com.simplemobiletools.commons.models.Release
+import com.merebapps.commons.R
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.isOreoMr1Plus
+import com.merebapps.commons.models.Release
 
 fun ComponentActivity.appLaunchedCompose(
     appId: String,
@@ -89,17 +89,17 @@ fun ComponentActivity.checkWhatsNewCompose(releases: List<Release>, currVersion:
 }
 
 fun ComponentActivity.upgradeToPro() {
-    launchViewIntent("https://simplemobiletools.com/upgrade_to_pro")
+    launchViewIntent("https://merebapps.com/upgrade_to_pro")
 }
 
 const val DEVELOPER_PLAY_STORE_URL = "https://play.google.com/store/apps/dev?id=9070296388022589266"
 const val FAKE_VERSION_APP_LABEL =
-    "You are using a fake version of the app. For your own safety download the original one from www.simplemobiletools.com. Thanks"
+    "You are using a fake version of the app. For your own safety download the original one from www.merebapps.com. Thanks"
 
 fun Context.fakeVersionCheck(
     showConfirmationDialog: () -> Unit
 ) {
-    if (!packageName.startsWith("com.simplemobiletools.", true)) {
+    if (!packageName.startsWith("com.merebapps.", true)) {
         if ((0..50).random() == 10 || baseConfig.appRunCount % 100 == 0) {
             showConfirmationDialog()
         }

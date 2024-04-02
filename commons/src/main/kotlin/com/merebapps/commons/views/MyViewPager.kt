@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.views
+package com.merebapps.commons.views
 
 import android.content.Context
 import android.util.AttributeSet

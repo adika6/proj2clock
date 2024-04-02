@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import android.app.Activity
 import android.text.Html
@@ -13,15 +13,15 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.DialogProperties
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.alert_dialog.*
-import com.simplemobiletools.commons.compose.components.LinkifyTextComponent
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.extensions.composeDonateIntent
-import com.simplemobiletools.commons.compose.extensions.config
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.databinding.DialogPurchaseThankYouBinding
-import com.simplemobiletools.commons.extensions.*
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.alert_dialog.*
+import com.merebapps.commons.compose.components.LinkifyTextComponent
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.extensions.composeDonateIntent
+import com.merebapps.commons.compose.extensions.config
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.databinding.DialogPurchaseThankYouBinding
+import com.merebapps.commons.extensions.*
 
 class PurchaseThankYouDialog(val activity: Activity) {
     init {

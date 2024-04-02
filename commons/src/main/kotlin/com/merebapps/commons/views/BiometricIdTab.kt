@@ -1,14 +1,14 @@
-package com.simplemobiletools.commons.views
+package com.merebapps.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.biometric.auth.AuthPromptHost
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.simplemobiletools.commons.databinding.TabBiometricIdBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.DARK_GREY
-import com.simplemobiletools.commons.interfaces.HashListener
-import com.simplemobiletools.commons.interfaces.SecurityTab
+import com.merebapps.commons.databinding.TabBiometricIdBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.DARK_GREY
+import com.merebapps.commons.interfaces.HashListener
+import com.merebapps.commons.interfaces.SecurityTab
 
 class BiometricIdTab(context: Context, attrs: AttributeSet) : ConstraintLayout(context, attrs), SecurityTab {
     private lateinit var hashListener: HashListener

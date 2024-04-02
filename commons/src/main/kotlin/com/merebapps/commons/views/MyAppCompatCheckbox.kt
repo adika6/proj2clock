@@ -1,10 +1,10 @@
-package com.simplemobiletools.commons.views
+package com.merebapps.commons.views
 
 import android.content.Context
 import android.content.res.ColorStateList
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatCheckBox
-import com.simplemobiletools.commons.extensions.adjustAlpha
+import com.merebapps.commons.extensions.adjustAlpha
 
 class MyAppCompatCheckbox : AppCompatCheckBox {
     constructor(context: Context) : super(context)

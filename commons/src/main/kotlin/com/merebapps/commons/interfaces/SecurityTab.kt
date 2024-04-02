@@ -1,7 +1,7 @@
-package com.simplemobiletools.commons.interfaces
+package com.merebapps.commons.interfaces
 
 import androidx.biometric.auth.AuthPromptHost
-import com.simplemobiletools.commons.views.MyScrollView
+import com.merebapps.commons.views.MyScrollView
 
 interface SecurityTab {
     fun initTab(

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import android.os.Bundle
 import android.view.ViewGroup
@@ -17,20 +17,20 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import androidx.fragment.app.FragmentManager
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.adapters.setupSimpleListItem
-import com.simplemobiletools.commons.compose.alert_dialog.dialogContainerColor
-import com.simplemobiletools.commons.compose.alert_dialog.dialogTextColor
-import com.simplemobiletools.commons.compose.bottom_sheet.BottomSheetColumnDialogSurface
-import com.simplemobiletools.commons.compose.bottom_sheet.BottomSheetDialogState
-import com.simplemobiletools.commons.compose.bottom_sheet.BottomSheetSpacerEdgeToEdge
-import com.simplemobiletools.commons.compose.bottom_sheet.rememberBottomSheetDialogState
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
-import com.simplemobiletools.commons.databinding.ItemSimpleListBinding
-import com.simplemobiletools.commons.fragments.BaseBottomSheetDialogFragment
-import com.simplemobiletools.commons.models.SimpleListItem
+import com.merebapps.commons.R
+import com.merebapps.commons.adapters.setupSimpleListItem
+import com.merebapps.commons.compose.alert_dialog.dialogContainerColor
+import com.merebapps.commons.compose.alert_dialog.dialogTextColor
+import com.merebapps.commons.compose.bottom_sheet.BottomSheetColumnDialogSurface
+import com.merebapps.commons.compose.bottom_sheet.BottomSheetDialogState
+import com.merebapps.commons.compose.bottom_sheet.BottomSheetSpacerEdgeToEdge
+import com.merebapps.commons.compose.bottom_sheet.rememberBottomSheetDialogState
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.databinding.ItemSimpleListBinding
+import com.merebapps.commons.fragments.BaseBottomSheetDialogFragment
+import com.merebapps.commons.models.SimpleListItem
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 

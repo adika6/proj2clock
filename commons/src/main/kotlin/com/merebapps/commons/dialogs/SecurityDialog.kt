@@ -1,17 +1,17 @@
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import android.app.Activity
 import android.view.LayoutInflater
 import androidx.appcompat.app.AlertDialog
 import androidx.biometric.auth.AuthPromptHost
 import androidx.fragment.app.FragmentActivity
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.adapters.PasswordTypesAdapter
-import com.simplemobiletools.commons.databinding.DialogSecurityBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.interfaces.HashListener
-import com.simplemobiletools.commons.views.MyDialogViewPager
+import com.merebapps.commons.R
+import com.merebapps.commons.adapters.PasswordTypesAdapter
+import com.merebapps.commons.databinding.DialogSecurityBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.*
+import com.merebapps.commons.interfaces.HashListener
+import com.merebapps.commons.views.MyDialogViewPager
 
 class SecurityDialog(
     private val activity: Activity,

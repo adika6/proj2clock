@@ -1,9 +1,9 @@
-package com.simplemobiletools.commons.views
+package com.merebapps.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.SeekBar
-import com.simplemobiletools.commons.extensions.applyColorFilter
+import com.merebapps.commons.extensions.applyColorFilter
 
 class MySeekBar : SeekBar {
     constructor(context: Context) : super(context)

@@ -1,10 +1,10 @@
-package com.simplemobiletools.commons.interfaces
+package com.merebapps.commons.interfaces
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.simplemobiletools.commons.models.contacts.LocalContact
+import com.merebapps.commons.models.contacts.LocalContact
 
 @Dao
 interface ContactsDao {

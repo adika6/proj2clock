@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import android.os.Environment
 import android.os.Parcelable
@@ -8,15 +8,15 @@ import androidx.appcompat.app.AlertDialog
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.documentfile.provider.DocumentFile
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.adapters.FilepickerFavoritesAdapter
-import com.simplemobiletools.commons.adapters.FilepickerItemsAdapter
-import com.simplemobiletools.commons.databinding.DialogFilepickerBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.ensureBackgroundThread
-import com.simplemobiletools.commons.models.FileDirItem
-import com.simplemobiletools.commons.views.Breadcrumbs
+import com.merebapps.commons.R
+import com.merebapps.commons.activities.BaseSimpleActivity
+import com.merebapps.commons.adapters.FilepickerFavoritesAdapter
+import com.merebapps.commons.adapters.FilepickerItemsAdapter
+import com.merebapps.commons.databinding.DialogFilepickerBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.ensureBackgroundThread
+import com.merebapps.commons.models.FileDirItem
+import com.merebapps.commons.views.Breadcrumbs
 import java.io.File
 
 /**

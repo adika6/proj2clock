@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.settings
+package com.merebapps.commons.compose.settings
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.MaterialTheme
@@ -8,8 +8,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.theme.SimpleTheme
 
 @Composable
 fun SettingsGroup(

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package com.merebapps.commons.extensions
 
 import android.view.WindowManager
 import androidx.appcompat.app.AlertDialog

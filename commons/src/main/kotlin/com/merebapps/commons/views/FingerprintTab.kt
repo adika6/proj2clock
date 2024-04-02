@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.views
+package com.merebapps.commons.views
 
 import android.content.Context
 import android.content.Intent
@@ -10,12 +10,12 @@ import androidx.biometric.auth.AuthPromptHost
 import com.github.ajalt.reprint.core.AuthenticationFailureReason
 import com.github.ajalt.reprint.core.AuthenticationListener
 import com.github.ajalt.reprint.core.Reprint
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.TabFingerprintBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.PROTECTION_FINGERPRINT
-import com.simplemobiletools.commons.interfaces.HashListener
-import com.simplemobiletools.commons.interfaces.SecurityTab
+import com.merebapps.commons.R
+import com.merebapps.commons.databinding.TabFingerprintBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.PROTECTION_FINGERPRINT
+import com.merebapps.commons.interfaces.HashListener
+import com.merebapps.commons.interfaces.SecurityTab
 
 class FingerprintTab(context: Context, attrs: AttributeSet) : RelativeLayout(context, attrs), SecurityTab {
     private val RECHECK_PERIOD = 3000L

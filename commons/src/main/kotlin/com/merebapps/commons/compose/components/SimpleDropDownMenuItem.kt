@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.components
+package com.merebapps.commons.compose.components
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Indication
@@ -14,10 +14,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.extensions.rememberMutableInteractionSource
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.extensions.rememberMutableInteractionSource
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.theme.SimpleTheme
 
 private val dropDownPaddings = Modifier.padding(horizontal = 14.dp, vertical = 16.dp)
 
@@ -73,6 +73,6 @@ fun SimpleDropDownMenuItem(
 @Composable
 private fun SimpleDropDownMenuItemPreview() {
     AppThemeSurface {
-        SimpleDropDownMenuItem(text = com.simplemobiletools.commons.R.string.copy, onClick = {})
+        SimpleDropDownMenuItem(text = com.merebapps.commons.R.string.copy, onClick = {})
     }
 }

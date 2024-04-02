@@ -1,12 +1,12 @@
-package com.simplemobiletools.commons.compose.extensions
+package com.merebapps.commons.compose.extensions
 
 import android.app.Activity
 import android.content.Context
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.extensions.baseConfig
-import com.simplemobiletools.commons.extensions.redirectToRateUs
-import com.simplemobiletools.commons.extensions.toast
-import com.simplemobiletools.commons.helpers.BaseConfig
+import com.merebapps.commons.R
+import com.merebapps.commons.extensions.baseConfig
+import com.merebapps.commons.extensions.redirectToRateUs
+import com.merebapps.commons.extensions.toast
+import com.merebapps.commons.helpers.BaseConfig
 
 val Context.config: BaseConfig get() = BaseConfig.newInstance(applicationContext)
 

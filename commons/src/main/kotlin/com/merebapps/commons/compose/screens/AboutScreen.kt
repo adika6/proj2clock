@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.screens
+package com.merebapps.commons.compose.screens
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
@@ -7,15 +7,15 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.lists.SimpleColumnScaffold
-import com.simplemobiletools.commons.compose.settings.SettingsGroup
-import com.simplemobiletools.commons.compose.settings.SettingsHorizontalDivider
-import com.simplemobiletools.commons.compose.settings.SettingsListItem
-import com.simplemobiletools.commons.compose.settings.SettingsTitleTextComponent
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.lists.SimpleColumnScaffold
+import com.merebapps.commons.compose.settings.SettingsGroup
+import com.merebapps.commons.compose.settings.SettingsHorizontalDivider
+import com.merebapps.commons.compose.settings.SettingsListItem
+import com.merebapps.commons.compose.settings.SettingsTitleTextComponent
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.theme.SimpleTheme
 
 private val startingTitlePadding = Modifier.padding(start = 60.dp)
 

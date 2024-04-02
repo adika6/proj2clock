@@ -1,14 +1,14 @@
-package com.simplemobiletools.commons.views
+package com.merebapps.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.MotionEvent
 import android.widget.LinearLayout
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.extensions.isRTLLayout
-import com.simplemobiletools.commons.extensions.onGlobalLayout
-import com.simplemobiletools.commons.interfaces.LineColorPickerListener
+import com.merebapps.commons.R
+import com.merebapps.commons.extensions.isRTLLayout
+import com.merebapps.commons.extensions.onGlobalLayout
+import com.merebapps.commons.interfaces.LineColorPickerListener
 
 class LineColorPicker @JvmOverloads constructor(
     context: Context,

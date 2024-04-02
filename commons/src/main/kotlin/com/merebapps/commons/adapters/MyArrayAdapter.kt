@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.adapters
+package com.merebapps.commons.adapters
 
 import android.content.Context
 import android.graphics.drawable.ColorDrawable

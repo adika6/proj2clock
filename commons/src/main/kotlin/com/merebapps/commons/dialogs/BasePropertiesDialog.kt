@@ -1,17 +1,17 @@
-package com.simplemobiletools.commons.dialogs
+package com.merebapps.commons.dialogs
 
 import android.app.Activity
 import android.content.res.Resources
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.LinearLayout
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.DialogPropertiesBinding
-import com.simplemobiletools.commons.databinding.ItemPropertyBinding
-import com.simplemobiletools.commons.extensions.copyToClipboard
-import com.simplemobiletools.commons.extensions.getProperTextColor
-import com.simplemobiletools.commons.extensions.showLocationOnMap
-import com.simplemobiletools.commons.extensions.value
+import com.merebapps.commons.R
+import com.merebapps.commons.databinding.DialogPropertiesBinding
+import com.merebapps.commons.databinding.ItemPropertyBinding
+import com.merebapps.commons.extensions.copyToClipboard
+import com.merebapps.commons.extensions.getProperTextColor
+import com.merebapps.commons.extensions.showLocationOnMap
+import com.merebapps.commons.extensions.value
 
 abstract class BasePropertiesDialog(activity: Activity) {
     protected val mInflater: LayoutInflater

@@ -1,18 +1,18 @@
-package com.simplemobiletools.commons.activities
+package com.merebapps.commons.activities
 
 import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.LayerDrawable
 import android.graphics.drawable.RippleDrawable
 import android.os.Bundle
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.ActivityCustomizationBinding
-import com.simplemobiletools.commons.dialogs.*
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.MyTheme
-import com.simplemobiletools.commons.models.RadioItem
-import com.simplemobiletools.commons.models.SharedTheme
+import com.merebapps.commons.R
+import com.merebapps.commons.databinding.ActivityCustomizationBinding
+import com.merebapps.commons.dialogs.*
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.*
+import com.merebapps.commons.models.MyTheme
+import com.merebapps.commons.models.RadioItem
+import com.merebapps.commons.models.SharedTheme
 
 class CustomizationActivity : BaseSimpleActivity() {
     private val THEME_LIGHT = 0
@@ -56,7 +56,7 @@ class CustomizationActivity : BaseSimpleActivity() {
 
         updateMaterialActivityViews(binding.customizationCoordinator, binding.customizationHolder, useTransparentNavigation = true, useTopSearchMenu = false)
 
-        isThankYou = packageName.removeSuffix(".debug") == "com.simplemobiletools.thankyou"
+        isThankYou = packageName.removeSuffix(".debug") == "com.merebapps.thankyou"
         initColorVariables()
 
         if (isThankYouInstalled()) {
@@ -543,7 +543,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     }
 
     private fun pickPrimaryColor() {
-        if (!packageName.startsWith("com.simplemobiletools.", true) && baseConfig.appRunCount > 50) {
+        if (!packageName.startsWith("com.merebapps.", true) && baseConfig.appRunCount > 50) {
             finish()
             return
         }

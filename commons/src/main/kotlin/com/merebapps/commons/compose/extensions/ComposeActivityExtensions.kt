@@ -1,12 +1,12 @@
-package com.simplemobiletools.commons.compose.extensions
+package com.merebapps.commons.compose.extensions
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.platform.LocalContext
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.alert_dialog.rememberAlertDialogState
-import com.simplemobiletools.commons.dialogs.ConfirmationAlertDialog
-import com.simplemobiletools.commons.extensions.launchViewIntent
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.alert_dialog.rememberAlertDialogState
+import com.merebapps.commons.dialogs.ConfirmationAlertDialog
+import com.merebapps.commons.extensions.launchViewIntent
 
 @Composable
 fun FakeVersionCheck() {

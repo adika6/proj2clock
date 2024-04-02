@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.models
+package com.merebapps.commons.models
 
 import kotlinx.serialization.Serializable
 

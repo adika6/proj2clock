@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.system_ui_controller
+package com.merebapps.commons.compose.system_ui_controller
 
 /*
  * Copyright 2022 The Android Open Source Project

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package com.merebapps.commons.extensions
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -12,7 +12,7 @@ import android.text.*
 import android.text.style.ForegroundColorSpan
 import android.widget.TextView
 import com.bumptech.glide.signature.ObjectKey
-import com.simplemobiletools.commons.helpers.*
+import com.merebapps.commons.helpers.*
 import java.io.File
 import java.text.DateFormat
 import java.text.Normalizer

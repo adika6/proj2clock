@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.components
+package com.merebapps.commons.compose.components
 
 import android.text.Spanned
 import android.text.method.LinkMovementMethod
@@ -12,12 +12,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.compose.extensions.MyDevices
-import com.simplemobiletools.commons.compose.theme.AppThemeSurface
-import com.simplemobiletools.commons.compose.theme.SimpleTheme
-import com.simplemobiletools.commons.extensions.fromHtml
-import com.simplemobiletools.commons.extensions.removeUnderlines
+import com.merebapps.commons.R
+import com.merebapps.commons.compose.extensions.MyDevices
+import com.merebapps.commons.compose.theme.AppThemeSurface
+import com.merebapps.commons.compose.theme.SimpleTheme
+import com.merebapps.commons.extensions.fromHtml
+import com.merebapps.commons.extensions.removeUnderlines
 
 @Composable
 fun LinkifyTextComponent(

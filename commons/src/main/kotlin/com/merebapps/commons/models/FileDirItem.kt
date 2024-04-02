@@ -1,12 +1,12 @@
-package com.simplemobiletools.commons.models
+package com.merebapps.commons.models
 
 import android.content.Context
 import android.net.Uri
 import android.provider.MediaStore
 import androidx.compose.runtime.Immutable
 import com.bumptech.glide.signature.ObjectKey
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.*
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.helpers.*
 import java.io.File
 
 open class FileDirItem(

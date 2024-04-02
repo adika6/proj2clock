@@ -1,8 +1,8 @@
-package com.simplemobiletools.commons.extensions
+package com.merebapps.commons.extensions
 
 import android.content.Context
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.FileDirItem
+import com.merebapps.commons.helpers.*
+import com.merebapps.commons.models.FileDirItem
 import java.io.File
 import java.util.*
 

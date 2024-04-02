@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.views.bottomactionmenu
+package com.merebapps.commons.views.bottomactionmenu
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -13,12 +13,12 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.annotation.IdRes
 import com.google.android.material.animation.AnimationUtils
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.extensions.applyColorFilter
-import com.simplemobiletools.commons.extensions.beVisibleIf
-import com.simplemobiletools.commons.extensions.toast
-import com.simplemobiletools.commons.extensions.windowManager
-import com.simplemobiletools.commons.helpers.isRPlus
+import com.merebapps.commons.R
+import com.merebapps.commons.extensions.applyColorFilter
+import com.merebapps.commons.extensions.beVisibleIf
+import com.merebapps.commons.extensions.toast
+import com.merebapps.commons.extensions.windowManager
+import com.merebapps.commons.helpers.isRPlus
 
 class BottomActionMenuView : LinearLayout {
     companion object {

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.views
+package com.merebapps.commons.views
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -11,11 +11,11 @@ import android.widget.HorizontalScrollView
 import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.databinding.ItemBreadcrumbBinding
-import com.simplemobiletools.commons.databinding.ItemBreadcrumbFirstBinding
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.models.FileDirItem
+import com.merebapps.commons.R
+import com.merebapps.commons.databinding.ItemBreadcrumbBinding
+import com.merebapps.commons.databinding.ItemBreadcrumbFirstBinding
+import com.merebapps.commons.extensions.*
+import com.merebapps.commons.models.FileDirItem
 
 class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(context, attrs) {
     private val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater

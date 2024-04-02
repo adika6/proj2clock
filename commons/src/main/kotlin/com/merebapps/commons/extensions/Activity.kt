@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.extensions
+package com.merebapps.commons.extensions
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -34,15 +34,15 @@ import androidx.biometric.auth.Class2BiometricAuthPrompt
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.FragmentActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.compose.extensions.DEVELOPER_PLAY_STORE_URL
-import com.simplemobiletools.commons.databinding.DialogTitleBinding
-import com.simplemobiletools.commons.dialogs.*
-import com.simplemobiletools.commons.dialogs.WritePermissionDialog.WritePermissionDialogMode
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.*
-import com.simplemobiletools.commons.views.MyTextView
+import com.merebapps.commons.R
+import com.merebapps.commons.activities.BaseSimpleActivity
+import com.merebapps.commons.compose.extensions.DEVELOPER_PLAY_STORE_URL
+import com.merebapps.commons.databinding.DialogTitleBinding
+import com.merebapps.commons.dialogs.*
+import com.merebapps.commons.dialogs.WritePermissionDialog.WritePermissionDialogMode
+import com.merebapps.commons.helpers.*
+import com.merebapps.commons.models.*
+import com.merebapps.commons.views.MyTextView
 import java.io.*
 import java.util.*
 
@@ -291,7 +291,7 @@ fun BaseSimpleActivity.showOTGPermissionDialog(path: String) {
 fun Activity.launchPurchaseThankYouIntent() {
     hideKeyboard()
     try {
-        launchViewIntent("market://details?id=com.simplemobiletools.thankyou")
+        launchViewIntent("market://details?id=com.merebapps.thankyou")
     } catch (ignored: Exception) {
         launchViewIntent(getString(R.string.thank_you_url))
     }
@@ -505,7 +505,7 @@ fun Activity.openPathIntent(
             setDataAndType(newUri, mimeType)
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
 
-            if (applicationId == "com.simplemobiletools.gallery.pro" || applicationId == "com.simplemobiletools.gallery.pro.debug") {
+            if (applicationId == "com.merebapps.gallery.pro" || applicationId == "com.merebapps.gallery.pro.debug") {
                 putExtra(IS_FROM_GALLERY, true)
             }
 
@@ -548,8 +548,8 @@ fun BaseSimpleActivity.launchCallIntent(recipient: String, handle: PhoneAccountH
             }
 
             if (isDefaultDialer()) {
-                val packageName = if (baseConfig.appId.contains(".debug", true)) "com.simplemobiletools.dialer.debug" else "com.simplemobiletools.dialer"
-                val className = "com.simplemobiletools.dialer.activities.DialerActivity"
+                val packageName = if (baseConfig.appId.contains(".debug", true)) "com.merebapps.dialer.debug" else "com.merebapps.dialer"
+                val className = "com.merebapps.dialer.activities.DialerActivity"
                 setClassName(packageName, className)
             }
 

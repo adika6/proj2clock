@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.interfaces
+package com.merebapps.commons.interfaces
 
 interface CopyMoveListener {
     fun copySucceeded(copyOnly: Boolean, copiedAll: Boolean, destinationPath: String, wasCopyingOneFileOnly: Boolean)

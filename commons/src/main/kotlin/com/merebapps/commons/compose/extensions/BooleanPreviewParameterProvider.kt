@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.compose.extensions
+package com.merebapps.commons.compose.extensions
 
 import androidx.compose.ui.tooling.preview.PreviewParameterProvider
 

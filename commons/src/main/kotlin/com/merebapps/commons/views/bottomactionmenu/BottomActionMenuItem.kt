@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.views.bottomactionmenu
+package com.merebapps.commons.views.bottomactionmenu
 
 import android.view.View
 import androidx.annotation.DrawableRes
