@@ -1040,7 +1040,7 @@
     <string name="rate">تقييم</string>
     <string name="donate">تبرع</string>
     <string name="follow_us">تابعنا</string>
-    <string name="copyright">v %1$s\nحقوق النشر © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nحقوق النشر © Mereb Apps %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Help us</string>
     <string name="social">Social</string>
@@ -1157,7 +1157,7 @@
     <string name="translation">الترجمة</string>
     <string name="development">التطوير</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">تحتوي هذه القائمة على كل شخص ساعد بشكل ملحوظ أي تطبيق داخل مجموعة Simple Mobile Tools ، وليس هذا التطبيق فقط. يتم التعامل مع الترجمات من قبل متطوعين ، أخبرنا إذا كنت تريد المساعدة أيضا. دليل الترجمة موجود على &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; هذا الموقع&lt;/a&gt;، أو فقط اتصل بنا على &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt; إذا كان لديك أي أسئلة. شكرا لجميع المساهمين والداعمين الآخرين!</string>
+    <string name="contributors_label">تحتوي هذه القائمة على كل شخص ساعد بشكل ملحوظ أي تطبيق داخل مجموعة Mereb Apps ، وليس هذا التطبيق فقط. يتم التعامل مع الترجمات من قبل متطوعين ، أخبرنا إذا كنت تريد المساعدة أيضا. دليل الترجمة موجود على &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; هذا الموقع&lt;/a&gt;، أو فقط اتصل بنا على &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt; إذا كان لديك أي أسئلة. شكرا لجميع المساهمين والداعمين الآخرين!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

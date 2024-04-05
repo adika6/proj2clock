@@ -903,7 +903,7 @@
     <string name="rate">Rate</string>
     <string name="donate">İanə et</string>
     <string name="follow_us">İzlə</string>
-    <string name="copyright">v %1$s\nMüəllif Hüquqları © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nMüəllif Hüquqları © Mereb Apps %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Help us</string>
     <string name="social">Social</string>
@@ -911,7 +911,7 @@
     <string name="privacy_policy">Privacy policy</string>
     <string name="version_placeholder">Version %s</string>
     <string name="hello">Hello :)</string>
-    <string name="about_footer">Made with &#10084;&#65039; in Slovakia</string>
+    <string name="about_footer">Mereb Apps</string>
     <string name="additional_info">Əlavə məlumat</string>
     <string name="app_version">Tətbiq versiyası: %s</string>
     <string name="device_os">Cihaz ƏS: %s</string>
@@ -1038,7 +1038,7 @@
     <string name="other_help">Other help</string>
     <string name="contributors_label">
         <![CDATA[
-            This list contains everyone that noticeably helped any app within the Simple Mobile Tools suite, not only this one. Translations are handled by volunteers,
+            This list contains everyone that noticeably helped any app within the Mereb Apps suite, not only this one. Translations are handled by volunteers,
             let us know if you want to help too. The guide to translating is at <a href="https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@merebapps.com">hello@merebapps.com</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>

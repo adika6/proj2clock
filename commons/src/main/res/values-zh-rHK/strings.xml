@@ -819,7 +819,7 @@
     <string name="donate">捐赠</string>
     <string name="follow_us">关注我们</string>
     <string name="copyright">v %1$s
-\n版权所有 © Simple Mobile Tools %2$d</string>
+\n版权所有 © Mereb Apps %2$d</string>
     <string name="support">支持</string>
     <string name="help_us">帮助我们</string>
     <string name="social">社交网络</string>
@@ -931,7 +931,7 @@
     <string name="translation">翻译</string>
     <string name="development">开发</string>
     <string name="other_help">其他帮助</string>
-    <string name="contributors_label">此列表包含对 Simple Mobile Tools 套件中的任何应用程序有显著帮助的所有人，而不仅仅是这个应用程序。 翻译由志愿者处理，如果您也想提供帮助，请告诉我们。 翻译指南位于 &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;，或者如果你有任何问题，欢迎发送电子邮件到 &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt;。感谢所有贡献者和其他支持者！</string>
+    <string name="contributors_label">此列表包含对 Mereb Apps 套件中的任何应用程序有显著帮助的所有人，而不仅仅是这个应用程序。 翻译由志愿者处理，如果您也想提供帮助，请告诉我们。 翻译指南位于 &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;，或者如果你有任何问题，欢迎发送电子邮件到 &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt;。感谢所有贡献者和其他支持者！</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

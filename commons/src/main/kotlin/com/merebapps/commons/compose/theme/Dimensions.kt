@@ -1,27 +1,25 @@
-package com.merebapps.commons.compose.theme.model
+package com.merebapps.commons.compose.theme
 
-import androidx.compose.runtime.Immutable
-import androidx.compose.ui.unit.Dp
+import androidx.compose.runtime.ProvidableCompositionLocal
+import androidx.compose.runtime.staticCompositionLocalOf
+import androidx.compose.ui.unit.dp
+import com.merebapps.commons.compose.theme.model.Dimensions
 
-@Immutable
-data class Dimensions(
-    val padding: Paddings,
-    val icon: IconSizes
-) {
-    @Immutable
-    data class Paddings(
-        val extraSmall: Dp,
-        val small: Dp,
-        val medium: Dp,
-        val large: Dp,
-        val extraLarge: Dp,
+internal val CommonDimensions = Dimensions(
+    padding = Dimensions.Paddings(
+        extraSmall = 2.dp,
+        small = 4.dp,
+        medium = 8.dp,
+        large = 12.dp,
+        extraLarge = 16.dp,
+    ),
+    icon = Dimensions.IconSizes(
+        small = 32.dp,
+        medium = 48.dp,
+        large = 56.dp,
+        extraLarge = 64.dp,
     )
+)
 
-    @Immutable
-    data class IconSizes(
-        val small: Dp,
-        val medium: Dp,
-        val large: Dp,
-        val extraLarge: Dp,
-    )
-}
+val LocalDimensions: ProvidableCompositionLocal<Dimensions> =
+    staticCompositionLocalOf { CommonDimensions }

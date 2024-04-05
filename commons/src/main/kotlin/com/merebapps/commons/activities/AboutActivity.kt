@@ -44,31 +44,14 @@ class AboutActivity : ComponentActivity() {
             val context = LocalContext.current
             val resources = context.resources
             AppThemeSurface {
-                val showExternalLinks = remember { !resources.getBoolean(R.bool.hide_all_external_links) }
+                val showExternalLinks = false
                 val showGoogleRelations = remember { !resources.getBoolean(R.bool.hide_google_relations) }
                 val onEmailClickAlertDialogState = getOnEmailClickAlertDialogState()
-                val rateStarsAlertDialogState = getRateStarsAlertDialogState()
+               // val rateStarsAlertDialogState = getRateStarsAlertDialogState()
                 val onRateUsClickAlertDialogState = getOnRateUsClickAlertDialogState(rateStarsAlertDialogState::show)
                 AboutScreen(
                     goBack = ::finish,
-                    helpUsSection = {
-                        val showHelpUsSection =
-                            remember { showGoogleRelations || !showExternalLinks }
-                        HelpUsSection(
-                            onRateUsClick = {
-                                onRateUsClick(
-                                    showConfirmationAdvancedDialog = onRateUsClickAlertDialogState::show,
-                                    showRateStarsDialog = rateStarsAlertDialogState::show
-                                )
-                            },
-                            onInviteClick = ::onInviteClick,
-                            onContributorsClick = ::onContributorsClick,
-                            showDonate = resources.getBoolean(R.bool.show_donate_in_about) && showExternalLinks,
-                            onDonateClick = ::onDonateClick,
-                            showInvite = showHelpUsSection,
-                            showRateUs = showHelpUsSection
-                        )
-                    },
+                    
                     aboutSection = {
                         val setupFAQ = rememberFAQ()
                         if (!showExternalLinks || setupFAQ) {
@@ -301,7 +284,7 @@ class AboutActivity : ComponentActivity() {
 
     private fun onPrivacyPolicyClick() {
         val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.merebapps.")
-        val url = "https://merebapps.com/privacy/$appId.txt"
+        val url = "https://merebapps.com/privacy-policy-clock/"
         launchViewIntent(url)
     }
 
