@@ -935,7 +935,7 @@
     <string name="donate">Donar</string>
     <string name="follow_us">Síguenos</string>
     <string name="copyright">v %1$s
-\nCopyright © Mereb Apps %2$d</string>
+\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="support">Soporte</string>
     <string name="help_us">Ayúdenos</string>
     <string name="social">Social</string>
@@ -1064,7 +1064,7 @@
     <string name="other_help">Otra ayuda</string>
     <string name="contributors_label">
         <![CDATA[
-            Esta lista contiene a todos los que ayudaron notablemente a cualquier aplicación dentro de la suite Mereb Apps, no solo a esta. Las traducciones son manejadas por voluntarios,
+            Esta lista contiene a todos los que ayudaron notablemente a cualquier aplicación dentro de la suite Simple Mobile Tools, no solo a esta. Las traducciones son manejadas por voluntarios,
              Háganos saber si usted también quiere ayudar. La guía para traducir se encuentra en <a href="https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file">este sitio web</a>, o simplemente contáctenos en <a href="mailto:hello@merebapps.com">hello@merebapps.com</a> si tiene alguna pregunta.
              ¡Gracias a todos los contribuyentes y otros patrocinadores! 
         ]]>

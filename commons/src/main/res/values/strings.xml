@@ -375,14 +375,14 @@
     <string name="undo_changes_confirmation">Are you sure you want to undo your changes?</string>
     <string name="cannot_be_undone">This action cannot be undone.</string>
     <string name="save_before_closing">You have unsaved changes. Save before exit?</string>
-    <string name="apply_to_all_apps">Apply colors to all Mereb Apps</string>
+    <string name="apply_to_all_apps">Apply colors to all Simple Apps</string>
     <string name="app_icon_color_warning">WARNING: Some launchers do not handle app icon customization properly. In case the icon will disappear, try launching the app via Google Play or some widget, if available.
         Once launched, just set back the default orange icon #F57C00. You might have to reinstall the app in the worst case.</string>
     <string name="share_colors_success">Colors updated successfully. A new Theme called \'Shared\' has been added, please use that for updating all app colors in the future.</string>
     <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Simple Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Please purchase <a href="https://play.google.com/store/apps/details?id=com.merebapps.thankyou">Mereb Thank You</a> to unlock this function and support the development. Thanks!
+            Please purchase <a href="https://play.google.com/store/apps/details?id=com.merebapps.thankyou">Simple Thank You</a> to unlock this function and support the development. Thanks!
         ]]>
     </string>
 
@@ -683,7 +683,7 @@
 
     <!-- Settings -->
     <string name="settings">Settings</string>
-    <string name="purchase_simple_thank_you">Purchase Mereb Thank You</string>
+    <string name="purchase_simple_thank_you">Purchase Simple Thank You</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Color customization</string>
     <string name="improved_color_customization">Improved color customization</string>
@@ -903,7 +903,7 @@
     <string name="rate">Rate</string>
     <string name="donate">Donate</string>
     <string name="follow_us">Follow us</string>
-    <string name="copyright">v %1$s\nCopyright © Mereb Apps %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Help us</string>
     <string name="social">Social</string>
@@ -911,7 +911,7 @@
     <string name="privacy_policy">Privacy policy</string>
     <string name="version_placeholder">Version %s</string>
     <string name="hello">Hello :)</string>
-    <string name="about_footer">Mereb Apps</string>
+    <string name="about_footer">Made with &#10084;&#65039; in Slovakia</string>
     <string name="additional_info">Additional info</string>
     <string name="app_version">App version: %s</string>
     <string name="device_os">Device OS: %s</string>
@@ -937,7 +937,7 @@
     <string name="rate_our_app">Rate our app please :)</string>
     <string name="thank_you">Thank you</string>
     <string name="widget_locked_pro">The widget is locked.\nPlease upgrade to the Pro version to unlock it.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.merebapps.thankyou&gt;Mereb Apps&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.merebapps.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
 
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
@@ -968,7 +968,7 @@
     <string name="simple_music_player">Simple Music Player</string>
     <string name="simple_notes">Simple Notes</string>
     <string name="simple_sms_messenger">Simple SMS Messenger</string>
-    <string name="simple_thank_you">Mereb Apps</string>
+    <string name="simple_thank_you">Simple Thank You</string>
     <string name="simple_voice_recorder">Simple Voice Recorder</string>
 
     <string name="app_launcher_short">App Launcher</string>
@@ -1037,7 +1037,7 @@
     <string name="other_help">Other help</string>
     <string name="contributors_label">
         <![CDATA[
-            This list contains everyone that noticeably helped any app within the Mereb Apps suite, not only this one. Translations are handled by volunteers,
+            This list contains everyone that noticeably helped any app within the Simple Mobile Tools suite, not only this one. Translations are handled by volunteers,
             let us know if you want to help too. The guide to translating is at <a href="https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@merebapps.com">hello@merebapps.com</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>

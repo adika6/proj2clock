@@ -966,7 +966,7 @@
     <string name="rate">Оцінити</string>
     <string name="donate">Підтримати розробника</string>
     <string name="follow_us">Підписатися на нас</string>
-    <string name="copyright">v %1$s\nАвторські права © Mereb Apps %2$d</string>
+    <string name="copyright">v %1$s\nАвторські права © Simple Mobile Tools %2$d</string>
     <string name="support">Підтримка</string>
     <string name="help_us">Допоможіть нам</string>
     <string name="social">Соціальні мережі</string>
@@ -1083,7 +1083,7 @@
     <string name="translation">Переклад</string>
     <string name="development">Розробка</string>
     <string name="other_help">Інша допомога</string>
-    <string name="contributors_label">У цьому списку є всі, хто помітно допоміг будь-якому додатку в наборі Mereb Apps, не тільки цьому. Перекладами займаються волонтери. Якщо ви також хочете допомогти, то повідомте нас. Посібник з перекладу знаходиться на вебсайті &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;за цією адресою&lt;/a&gt; або просто зв\'яжіться з нами через електронну пошту &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt;, якщо у вас виникли запитання. Дякуємо всім помічникам та всім, хто підтримує!</string>
+    <string name="contributors_label">У цьому списку є всі, хто помітно допоміг будь-якому додатку в наборі Simple Mobile Tools, не тільки цьому. Перекладами займаються волонтери. Якщо ви також хочете допомогти, то повідомте нас. Посібник з перекладу знаходиться на вебсайті &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;за цією адресою&lt;/a&gt; або просто зв\'яжіться з нами через електронну пошту &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt;, якщо у вас виникли запитання. Дякуємо всім помічникам та всім, хто підтримує!</string>
     <string name="translation_arabic">Арабська</string>
     <string name="translation_azerbaijani">Азербайджанська</string>
     <string name="translation_bengali">Бенгальська</string>

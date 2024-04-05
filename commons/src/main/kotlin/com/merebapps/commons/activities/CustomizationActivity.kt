@@ -59,7 +59,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         isThankYou = packageName.removeSuffix(".debug") == "com.merebapps.thankyou"
         initColorVariables()
 
-        if (true) {
+        if (isThankYouInstalled()) {
             val cursorLoader = getMyContentProviderCursorLoader()
             ensureBackgroundThread {
                 try {

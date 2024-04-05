@@ -935,7 +935,7 @@
     <string name="rate">Ohodnotit</string>
     <string name="donate">Podpořit</string>
     <string name="follow_us">Sledujte nás</string>
-    <string name="copyright">v %1$s\nCopyright © Mereb Apps %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="support">Podpora</string>
     <string name="help_us">Pomozte nám</string>
     <string name="social">Sociální sítě</string>
@@ -1050,7 +1050,7 @@
     <string name="translation">Překlad</string>
     <string name="development">Vývoj</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">Tento seznam obsahuje všechny, kteří výrazně pomohli jakékoli aplikaci v rámci sady Mereb Apps, nejen této. O překlady se starají dobrovolníci, dejte nám vědět, pokud chcete pomoci i Vy. Průvodce překladem je na &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;této webové stránce&lt;/a&gt;. Pokud máte nějaké dotazy, kontaktujte nás na adrese &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt;. Děkujeme všem přispěvatelům a dalším podporovatelům!</string>
+    <string name="contributors_label">Tento seznam obsahuje všechny, kteří výrazně pomohli jakékoli aplikaci v rámci sady Simple Mobile Tools, nejen této. O překlady se starají dobrovolníci, dejte nám vědět, pokud chcete pomoci i Vy. Průvodce překladem je na &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;této webové stránce&lt;/a&gt;. Pokud máte nějaké dotazy, kontaktujte nás na adrese &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt;. Děkujeme všem přispěvatelům a dalším podporovatelům!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

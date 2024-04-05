@@ -896,7 +896,7 @@
     <string name="rate">Betygsätt</string>
     <string name="donate">Donera</string>
     <string name="follow_us">Följ oss</string>
-    <string name="copyright">v %1$s\nCopyright © Mereb Apps %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Hjälp oss</string>
     <string name="social">Socialt</string>
@@ -1016,7 +1016,7 @@
     <string name="translation">Översättning</string>
     <string name="development">Utveckling</string>
     <string name="other_help">Annan hjälp</string>
-    <string name="contributors_label">Den här listan innehåller alla som märkbart hjälpt någon app i Mereb Apps-sviten, inte bara den här. Översättningar hanteras av volontärer, låt oss veta om du också vill hjälpa till. Guiden för att översätta finns på &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;denna webbplats&lt;/a&gt;, eller kontakta oss bara på &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt; om du har några frågor. Tack till alla bidragsgivare och andra supportrar!</string>
+    <string name="contributors_label">Den här listan innehåller alla som märkbart hjälpt någon app i Simple Mobile Tools-sviten, inte bara den här. Översättningar hanteras av volontärer, låt oss veta om du också vill hjälpa till. Guiden för att översätta finns på &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;denna webbplats&lt;/a&gt;, eller kontakta oss bara på &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt; om du har några frågor. Tack till alla bidragsgivare och andra supportrar!</string>
     <string name="translation_arabic">Arabiska</string>
     <string name="translation_azerbaijani">Azerbajdzjanska</string>
     <string name="translation_bengali">Bengali</string>

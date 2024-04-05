@@ -856,7 +856,7 @@
     <string name="rate">Βαθμολογία</string>
     <string name="donate">Δωρεά</string>
     <string name="follow_us">Ακολουθήστε μας</string>
-    <string name="copyright">v %1$s\nCopyright © Mereb Apps %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="support">Υποστήριξη</string>
     <string name="help_us">Βοηθήστε μας</string>
     <string name="social">Κοινωνικά</string>
@@ -985,7 +985,7 @@
     <string name="other_help">Άλλη Βοήθεια</string>
     <string name="contributors_label">
         <![CDATA[
-            Αυτή η λίστα περιέχει όλους όσους βοήθησαν αισθητά οποιαδήποτε εφαρμογή της σουίτας Mereb Apps, όχι μόνο αυτή. Οι μεταφράσεις γίνονται από εθελοντές,
+            Αυτή η λίστα περιέχει όλους όσους βοήθησαν αισθητά οποιαδήποτε εφαρμογή της σουίτας Simple Mobile Tools, όχι μόνο αυτή. Οι μεταφράσεις γίνονται από εθελοντές,
             πείτε μας αν θέλετε να βοηθήσετε κι εσείς. Ο οδηγός για τη μετάφραση βρίσκεται στον <a href="https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ιστότοπο</a>, ή επικοινωνήστε μαζί μας στο <a href="mailto:hello@merebapps.com">hello@merebapps.com</a> αν έχετε οποιεσδήποτε ερωτήσεις.
             Ευχαριστούμε όλους τους συνεισφέροντες και υποστηρικτές!
         ]]>

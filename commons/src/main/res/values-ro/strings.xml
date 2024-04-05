@@ -889,7 +889,7 @@
     <string name="rate">Evaluează</string>
     <string name="donate">Donează</string>
     <string name="follow_us">Urmăriți-ne</string>
-    <string name="copyright">v %1$s\nCopyright © Mereb Apps %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Ajutaţi-ne</string>
     <string name="social">Social</string>
@@ -1016,7 +1016,7 @@
     <string name="translation">Traducere</string>
     <string name="development">Dezvoltare</string>
     <string name="other_help">Alte ajutoare</string>
-    <string name="contributors_label">Această listă conține pe toți cei care au ajutat în mod vizibil orice aplicație din suita Mereb Apps, nu numai aceasta. Traducerile sunt efectuate de voluntari, anunțați-ne dacă doriți să ajutați și dumneavoastră. Ghidul de traducere este la &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, sau pur și simplu contactați-ne la &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt; dacă aveți întrebări. Mulțumim tuturor contribuitorilor și celorlalți susținători!</string>
+    <string name="contributors_label">Această listă conține pe toți cei care au ajutat în mod vizibil orice aplicație din suita Simple Mobile Tools, nu numai aceasta. Traducerile sunt efectuate de voluntari, anunțați-ne dacă doriți să ajutați și dumneavoastră. Ghidul de traducere este la &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, sau pur și simplu contactați-ne la &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt; dacă aveți întrebări. Mulțumim tuturor contribuitorilor și celorlalți susținători!</string>
     <string name="translation_arabic">Arabică</string>
     <string name="translation_azerbaijani">Azeră</string>
     <string name="translation_bengali">Bengală</string>

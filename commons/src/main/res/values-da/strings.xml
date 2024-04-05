@@ -855,7 +855,7 @@
     <string name="rate">Vurder</string>
     <string name="donate">Donér</string>
     <string name="follow_us">Følg os</string>
-    <string name="copyright">v %1$s\nCopyright © Mereb Apps %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Hjælp os</string>
     <string name="social">Social</string>
@@ -984,7 +984,7 @@
     <string name="other_help">Anden hjælp</string>
     <string name="contributors_label">
         <![CDATA[
-            Denne liste indeholder alle, der har hjulpet med en app i Mereb Apps-pakken, ikke kun denne. Oversættelser håndteres af frivillige,
+            Denne liste indeholder alle, der har hjulpet med en app i Simple Mobile Tools-pakken, ikke kun denne. Oversættelser håndteres af frivillige,
             så lad os vide, hvis du også vil hjælpe. Vejledningen til oversættelse findes på <a href="https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file">denne hjemmeside</a>, eller send en mail til <a href="mailto:hello@merebapps.com">hello@merebapps.com</a>, hvis du har spørgsmål.
             Tak til alle bidragydere og andre støtter!
         ]]>

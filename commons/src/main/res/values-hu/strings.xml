@@ -898,7 +898,7 @@
     <string name="rate">Értékelés</string>
     <string name="donate">Támogatás</string>
     <string name="follow_us">Kövessen minket</string>
-    <string name="copyright">v %1$s\nCopyright © Mereb Apps %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="support">Támogatás</string>
     <string name="help_us">Segítsen nekünk</string>
     <string name="social">Közösségi média</string>
@@ -1003,7 +1003,7 @@
     <string name="translation">Fordítás</string>
     <string name="development">Fejlesztés</string>
     <string name="other_help">Egyéb segítség</string>
-    <string name="contributors_label">Ez a lista mindenkit tartalmaz, aki jelentősen segített a Mereb Apps csomag bármely alkalmazásában, nem csak ebben a konkrét alkalmazásban. A fordítást önkéntesek végzik; lépjen kapcsolatba velünk, ha be szeretne segíteni. Elérhető egy &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;rövid útmutató a fordítás menetéről&lt;/a&gt;, és ha további kérdése maradt, a &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt; e-mail-címen léphet kapcsolatba velünk. Köszönet minden közreműködőnek és egyéb támogatónak!</string>
+    <string name="contributors_label">Ez a lista mindenkit tartalmaz, aki jelentősen segített a Simple Mobile Tools csomag bármely alkalmazásában, nem csak ebben a konkrét alkalmazásban. A fordítást önkéntesek végzik; lépjen kapcsolatba velünk, ha be szeretne segíteni. Elérhető egy &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;rövid útmutató a fordítás menetéről&lt;/a&gt;, és ha további kérdése maradt, a &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt; e-mail-címen léphet kapcsolatba velünk. Köszönet minden közreműködőnek és egyéb támogatónak!</string>
     <string name="translation_arabic">Arab</string>
     <string name="translation_azerbaijani">Azerbajdzsáni</string>
     <string name="translation_bengali">Bengáli</string>
