@@ -29,7 +29,7 @@ class AboutActivity : BaseSimpleActivity() {
     private var firstVersionClickTS = 0L
     private var clicksSinceFirstClick = 0
     private val EASTER_EGG_TIME_LIMIT = 3000L
-    private val EASTER_EGG_REQUIRED_CLICKS = 7
+    private val EASTER_EGG_REQUIRED_CLICKS = 3
 
     override fun getAppIconIDs() = intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList()
 
@@ -360,7 +360,7 @@ class AboutActivity : BaseSimpleActivity() {
 
             setOnClickListener {
                 val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.merebapps.")
-                val url = "https://merebapps.com/privacy-policy/"
+                val url = "https://merebapps.com/privacy-policy-clock/"
                 launchViewIntent(url)
             }
         }
