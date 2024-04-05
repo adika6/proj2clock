@@ -291,7 +291,7 @@ class AboutActivity : ComponentActivity() {
 
 
     private fun onTelegramClick() {
-        launchViewIntent("https://t.me/merebapps")
+        launchViewIntent("https://t.me/merebapps ")
     }
 
 
