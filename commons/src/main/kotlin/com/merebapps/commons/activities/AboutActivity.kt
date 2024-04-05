@@ -34,7 +34,7 @@ class AboutActivity : ComponentActivity() {
 
     companion object {
         private const val EASTER_EGG_TIME_LIMIT = 3000L
-        private const val EASTER_EGG_REQUIRED_CLICKS = 7
+        private const val EASTER_EGG_REQUIRED_CLICKS = 2
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -51,38 +51,12 @@ class AboutActivity : ComponentActivity() {
                 val onRateUsClickAlertDialogState = getOnRateUsClickAlertDialogState(rateStarsAlertDialogState::show)
                 AboutScreen(
                     goBack = ::finish,
-                    helpUsSection = {
-                        val showHelpUsSection =
-                            remember { showGoogleRelations || !showExternalLinks }
-                        HelpUsSection(
-                            onRateUsClick = {
-                                onRateUsClick(
-                                    showConfirmationAdvancedDialog = onRateUsClickAlertDialogState::show,
-                                    showRateStarsDialog = rateStarsAlertDialogState::show
-                                )
-                            },
-                            onInviteClick = ::onInviteClick,
-                            onContributorsClick = ::onContributorsClick,
-                            showDonate = resources.getBoolean(R.bool.show_donate_in_about) && showExternalLinks,
-                            onDonateClick = ::onDonateClick,
-                            showInvite = showHelpUsSection,
-                            showRateUs = showHelpUsSection
-                        )
-                    },
-                    aboutSection = {
-                        val setupFAQ = rememberFAQ()
-                        if (!showExternalLinks || setupFAQ) {
-                            AboutSection(setupFAQ = setupFAQ, onFAQClick = ::launchFAQActivity, onEmailClick = {
-                                onEmailClick(onEmailClickAlertDialogState::show)
-                            })
-                        }
-                    },
+                   
+                     
                     socialSection = {
                         if (showExternalLinks) {
                             SocialSection(
-                                onFacebookClick = ::onFacebookClick,
-                                onGithubClick = ::onGithubClick,
-                                onRedditClick = ::onRedditClick,
+                                 
                                 onTelegramClick = ::onTelegramClick
                             )
                         }
