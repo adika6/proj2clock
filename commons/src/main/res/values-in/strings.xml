@@ -860,7 +860,7 @@
     <string name="rate">Nilai</string>
     <string name="donate">Donasi</string>
     <string name="follow_us">Ikuti kami</string>
-    <string name="copyright">v %1$s\nHak cipta © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nHak cipta © Mereb Apps %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Help us</string>
     <string name="social">Social</string>
@@ -981,7 +981,7 @@
     <string name="translation">Terjemahan</string>
     <string name="development">Pengembangan</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">Daftar ini berisi semua orang yang secara nyata membantu aplikasi apa pun dalam rangkaian Simple Mobile Tools, tidak hanya yang ini. Penerjemahan ditangani oleh sukarelawan, beri tahu kami jika Anda ingin membantu juga. Panduan untuk menerjemahkan ada di &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;situs web ini&lt;/a&gt;, atau hubungi kami di &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt; jika Anda memiliki pertanyaan. Terima kasih kepada semua kontributor dan pendukung lainnya!</string>
+    <string name="contributors_label">Daftar ini berisi semua orang yang secara nyata membantu aplikasi apa pun dalam rangkaian Mereb Apps, tidak hanya yang ini. Penerjemahan ditangani oleh sukarelawan, beri tahu kami jika Anda ingin membantu juga. Panduan untuk menerjemahkan ada di &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;situs web ini&lt;/a&gt;, atau hubungi kami di &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt; jika Anda memiliki pertanyaan. Terima kasih kepada semua kontributor dan pendukung lainnya!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

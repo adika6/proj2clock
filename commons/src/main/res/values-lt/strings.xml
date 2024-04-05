@@ -891,7 +891,7 @@
     <string name="donate">Paaukoti</string>
     <string name="follow_us">Sekite mus</string>
     <string name="copyright">v %1$s
-\nAutorių teisės © Simple Mobile Tools %2$d</string>
+\nAutorių teisės © Mereb Apps %2$d</string>
     <string name="support">Palaikymas</string>
     <string name="help_us">Padėkite mums</string>
     <string name="social">Socialiniai tinklai</string>
@@ -996,7 +996,7 @@
     <string name="translation">Vertimas</string>
     <string name="development">Plėtojimas</string>
     <string name="other_help">Kita pagalba</string>
-    <string name="contributors_label">Šiame sąraše yra žmonės, kurie daug prisidėjo prie visų „Simple Mobile Tools“ rinkinio programėlių, o ne vien tik prie šios. Programėles į kitas kalbas verčia savanoriai, tad praneškite mums, jei taip pat norite padėti. Vertimo vadovą rasite &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;šioje svetainėje&lt;/a&gt; arba, jei turite klausimų, susisiekite su mumis el. paštu &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt;. Dėkojame visiems, kas prisidėjo ar kitaip mus palaikė!</string>
+    <string name="contributors_label">Šiame sąraše yra žmonės, kurie daug prisidėjo prie visų „Mereb Apps“ rinkinio programėlių, o ne vien tik prie šios. Programėles į kitas kalbas verčia savanoriai, tad praneškite mums, jei taip pat norite padėti. Vertimo vadovą rasite &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;šioje svetainėje&lt;/a&gt; arba, jei turite klausimų, susisiekite su mumis el. paštu &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt;. Dėkojame visiems, kas prisidėjo ar kitaip mus palaikė!</string>
     <string name="translation_arabic">Arabų</string>
     <string name="translation_azerbaijani">Azerbaidžaniečių</string>
     <string name="translation_bengali">Bengalų</string>

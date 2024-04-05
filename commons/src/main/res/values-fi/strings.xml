@@ -898,7 +898,7 @@
     <string name="rate">Arvostele</string>
     <string name="donate">Lahjoita</string>
     <string name="follow_us">Seuraa</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Mereb Apps %2$d</string>
     <string name="support">Tuki</string>
     <string name="help_us">Auta meitä</string>
     <string name="social">Sosiaalinen</string>
@@ -1016,7 +1016,7 @@
     <string name="translation">Käännös</string>
     <string name="development">Kehitys</string>
     <string name="other_help">Muu apu</string>
-    <string name="contributors_label">Tämä lista sisältää kaikki ne, jotka ovat merkittävästi auttaneet Simple Mobile Tools-sovelluskokoelman sovelluksissa. Vapaahtoiset tekevätk käännöksiä; ole yhteydessä, jos haluat myös auttaa. Ohje käännöksiin löytyy &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;tästä osoitteesta&lt;/a&gt;, tai ole vain yhteydessä sähköpostitse &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt; jos sinulla on kysymyksiä. Kiitos kaikille osallistujille ja tukijoille!</string>
+    <string name="contributors_label">Tämä lista sisältää kaikki ne, jotka ovat merkittävästi auttaneet Mereb Apps-sovelluskokoelman sovelluksissa. Vapaahtoiset tekevätk käännöksiä; ole yhteydessä, jos haluat myös auttaa. Ohje käännöksiin löytyy &lt;a href=https://github.com/merebapps/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;tästä osoitteesta&lt;/a&gt;, tai ole vain yhteydessä sähköpostitse &lt;a href=mailto:hello@merebapps.com&gt;hello@merebapps.com&lt;/a&gt; jos sinulla on kysymyksiä. Kiitos kaikille osallistujille ja tukijoille!</string>
     <string name="translation_arabic">Arabia</string>
     <string name="translation_azerbaijani">Azerbaidžan</string>
     <string name="translation_bengali">Bengali</string>
