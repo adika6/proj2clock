@@ -83,22 +83,22 @@ fun Activity.appLaunched(appId: String) {
     baseConfig.appRunCount++
     if (baseConfig.appRunCount % 30 == 0 && !isAProApp()) {
         if (!resources.getBoolean(R.bool.hide_google_relations)) {
-            showDonateOrUpgradeDialog()
+           // showDonateOrUpgradeDialog()
         }
     }
 
     if (baseConfig.appRunCount % 40 == 0 && !baseConfig.wasAppRated) {
         if (!resources.getBoolean(R.bool.hide_google_relations)) {
-            RateStarsDialog(this)
+           // RateStarsDialog(this)
         }
     }
 }
 
 fun Activity.showDonateOrUpgradeDialog() {
     if (getCanAppBeUpgraded()) {
-        UpgradeToProDialog(this)
+        //UpgradeToProDialog(this)
     } else if (!isOrWasThankYouInstalled()) {
-        DonateDialog(this)
+      //  DonateDialog(this)
     }
 }
 
@@ -291,9 +291,9 @@ fun BaseSimpleActivity.showOTGPermissionDialog(path: String) {
 fun Activity.launchPurchaseThankYouIntent() {
     hideKeyboard()
     try {
-        launchViewIntent("market://details?id=com.merebapps.thankyou")
+        launchViewIntent("market://details?id=com.merebapps.contacts.debug")
     } catch (ignored: Exception) {
-        launchViewIntent(getString(R.string.thank_you_url))
+        launchViewIntent("market://details?id=com.merebapps.contacts.debug")
     }
 }
 
