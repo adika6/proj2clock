@@ -80,14 +80,14 @@ class MainActivity : ComponentActivity() {
     private fun getDonateAlertDialogState() =
         rememberAlertDialogState().apply {
             DialogMember {
-                DonateAlertDialog(alertDialogState = this)
+               // DonateAlertDialog(alertDialogState = this)
             }
         }
 
     @Composable
     private fun getRateStarsAlertDialogState() = rememberAlertDialogState().apply {
         DialogMember {
-            RateStarsAlertDialog(alertDialogState = this, onRating = ::rateStarsRedirectAndThankYou)
+         //   RateStarsAlertDialog(alertDialogState = this, onRating = ::rateStarsRedirectAndThankYou)
         }
     }
 
