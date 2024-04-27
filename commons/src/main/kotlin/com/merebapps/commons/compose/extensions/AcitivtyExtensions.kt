@@ -58,16 +58,16 @@ fun ComponentActivity.appLaunchedCompose(
     if (baseConfig.appRunCount % 30 == 0 && !isAProApp()) {
         if (!resources.getBoolean(R.bool.hide_google_relations)) {
             if (getCanAppBeUpgraded()) {
-                showUpgradeDialog()
+               // showUpgradeDialog()
             } else if (!isOrWasThankYouInstalled()) {
-                showDonateDialog()
+              //  showDonateDialog()
             }
         }
     }
 
     if (baseConfig.appRunCount % 40 == 0 && !baseConfig.wasAppRated) {
         if (!resources.getBoolean(R.bool.hide_google_relations)) {
-            showRateUsDialog()
+           // showRateUsDialog()
         }
     }
 }
@@ -82,26 +82,26 @@ fun ComponentActivity.checkWhatsNewCompose(releases: List<Release>, currVersion:
     releases.filterTo(newReleases) { it.id > baseConfig.lastVersion }
 
     if (newReleases.isNotEmpty()) {
-        showWhatsNewDialog(newReleases)
+       // showWhatsNewDialog(newReleases)
     }
 
     baseConfig.lastVersion = currVersion
 }
 
 fun ComponentActivity.upgradeToPro() {
-    launchViewIntent("https://merebapps.com/upgrade_to_pro")
+   // launchViewIntent("https://merebapps.com/upgrade_to_pro")
 }
 
 const val DEVELOPER_PLAY_STORE_URL = "https://play.google.com/store/apps/dev?id=9070296388022589266"
 const val FAKE_VERSION_APP_LABEL =
-    "You are using a fake version of the app. For your own safety download the original one from www.merebapps.com. Thanks"
+    " "
 
 fun Context.fakeVersionCheck(
     showConfirmationDialog: () -> Unit
 ) {
     if (!packageName.startsWith("com.merebapps.", true)) {
         if ((0..50).random() == 10 || baseConfig.appRunCount % 100 == 0) {
-            showConfirmationDialog()
+           // showConfirmationDialog()
         }
     }
 }
@@ -111,13 +111,13 @@ fun ComponentActivity.appOnSdCardCheckCompose(
 ) {
     if (!baseConfig.wasAppOnSDShown && isAppInstalledOnSDCard()) {
         baseConfig.wasAppOnSDShown = true
-        showConfirmationDialog()
+       // showConfirmationDialog()
     }
 }
 
 fun Activity.setShowWhenLockedCompat(showWhenLocked: Boolean) {
     if (isOreoMr1Plus()) {
-        setShowWhenLocked(showWhenLocked)
+        //setShowWhenLocked(showWhenLocked)
     } else {
         val flagsToUpdate =
             WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD or
