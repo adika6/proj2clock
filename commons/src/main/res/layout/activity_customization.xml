@@ -188,7 +188,7 @@
                     android:layout_centerVertical="true"
                     android:paddingLeft="@dimen/medium_margin"
                     android:paddingRight="@dimen/medium_margin"
-                    android:text="@string/app_icon_color" 
+                    android:text="@string/app_icon_color"
                     android:visibility="gone"/>
 
                 <ImageView
@@ -197,7 +197,8 @@
                     android:layout_height="@dimen/color_sample_size"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="@dimen/medium_margin"
-                    android:clickable="false" />
+                    android:clickable="false"
+                    android:visibility="gone"/>
 
             </RelativeLayout>
 
