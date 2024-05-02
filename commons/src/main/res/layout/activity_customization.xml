@@ -188,7 +188,8 @@
                     android:layout_centerVertical="true"
                     android:paddingLeft="@dimen/medium_margin"
                     android:paddingRight="@dimen/medium_margin"
-                    android:text="@string/app_icon_color" />
+                    android:text="@string/app_icon_color" 
+                    android:visibility="gone"/>
 
                 <ImageView
                     android:id="@+id/customization_app_icon_color"
